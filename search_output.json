@@ -1,0 +1,1184 @@
+{
+    "search_metadata": {
+        "id": "61a28c6fc56d930b6e109064",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/5ff7c0657dc59795/61a28c6fc56d930b6e109064.json",
+        "created_at": "2021-11-27 19:52:15 UTC",
+        "processed_at": "2021-11-27 19:52:15 UTC",
+        "google_url": "https://www.google.com/search?q=Apple&oq=Apple&tbm=isch&sourceid=chrome&ie=UTF-8",
+        "raw_html_file": "https://serpapi.com/searches/5ff7c0657dc59795/61a28c6fc56d930b6e109064.html",
+        "total_time_taken": 1.62
+    },
+    "search_parameters": {
+        "engine": "google",
+        "q": "Apple",
+        "google_domain": "google.com",
+        "ijn": "0",
+        "device": "desktop",
+        "tbm": "isch"
+    },
+    "search_information": {
+        "image_results_state": "Results for exact spelling",
+        "query_displayed": "Apple"
+    },
+    "shopping_results": [{
+            "position": 1,
+            "link": "https://www.verizon.com/smartphones/apple-iphone-13-pro-max/?sku=sku4750173"
+        },
+        {
+            "position": 2,
+            "link": "https://www.verizon.com/smartphones/apple-iphone-13/?sku=sku4750121"
+        },
+        {
+            "position": 3,
+            "link": "https://www.verizon.com/smartphones/apple-iphone-13-pro/?skud=sku4750156"
+        },
+        {
+            "position": 4,
+            "link": "https://www.verizon.com/smartphones/apple-iphone-13/?sku=sku4750115"
+        },
+        {
+            "position": 5,
+            "link": "https://www.verizon.com/smartphones/apple-iphone-13-pro-max/?skud=sku4750349"
+        },
+        {
+            "position": 6,
+            "link": "https://www.verizon.com/smartphones/apple-iphone-13-mini/?sku=sku4750135"
+        },
+        {
+            "position": 7,
+            "link": "https://www.verizon.com/connected-smartwatches/apple-watch-series-7/?sku=sku4790175"
+        },
+        {
+            "position": 8,
+            "link": "https://www.att.com/buy/phones/apple-iphone-13-mini-256gb-pink.html"
+        },
+        {
+            "position": 9,
+            "link": "https://www.att.com/buy/phones/apple-iphone-13-mini-128gb-starlight.html"
+        },
+        {
+            "position": 10,
+            "link": "https://paveroapples.com/product/red-delicious/?attribute_pa_bushel-size=half-bushel&utm_source=Google+Shopping&utm_medium=cpc&utm_campaign=Google+Shopping+2"
+        }
+    ],
+    "suggested_searches": [{
+            "name": "red",
+            "link": "https://www.google.com/search?q=Apple&tbm=isch&chips=q:apple,g_1:red:iKrOFic9J00%3D&hl=en-US&sa=X&ved=2ahUKEwj00_3aqLn0AhXSbc0KHYJABVMQ4lYoAHoECAEQEA",
+            "chips": "q:apple,g_1:red:iKrOFic9J00%3D",
+            "serpapi_link": "https://serpapi.com/search.json?chips=q%3Aapple%2Cg_1%3Ared%3AiKrOFic9J00%253D&device=desktop&engine=google&google_domain=google.com&ijn=0&q=Apple&tbm=isch",
+            "thumbnail": "https://serpapi.com/searches/61a28c6fc56d930b6e109064/images/2584712cf913cd3edde4abdea54c2437c2faa61d675ae2ff741311c1a3938d8f.jpeg"
+        },
+        {
+            "name": "logo",
+            "link": "https://www.google.com/search?q=Apple&tbm=isch&chips=q:apple,g_1:logo:x16545CqTgc%3D&hl=en-US&sa=X&ved=2ahUKEwj00_3aqLn0AhXSbc0KHYJABVMQ4lYoAXoECAEQEg",
+            "chips": "q:apple,g_1:logo:x16545CqTgc%3D",
+            "serpapi_link": "https://serpapi.com/search.json?chips=q%3Aapple%2Cg_1%3Alogo%3Ax16545CqTgc%253D&device=desktop&engine=google&google_domain=google.com&ijn=0&q=Apple&tbm=isch",
+            "thumbnail": "https://serpapi.com/searches/61a28c6fc56d930b6e109064/images/2584712cf913cd3edde4abdea54c24373668a12cf935a1cd0505af030cb0a585.png"
+        },
+        {
+            "name": "iphone",
+            "link": "https://www.google.com/search?q=Apple&tbm=isch&chips=q:apple,g_1:iphone:fgmsxYER_Ts%3D&hl=en-US&sa=X&ved=2ahUKEwj00_3aqLn0AhXSbc0KHYJABVMQ4lYoAnoECAEQFA",
+            "chips": "q:apple,g_1:iphone:fgmsxYER_Ts%3D",
+            "serpapi_link": "https://serpapi.com/search.json?chips=q%3Aapple%2Cg_1%3Aiphone%3AfgmsxYER_Ts%253D&device=desktop&engine=google&google_domain=google.com&ijn=0&q=Apple&tbm=isch",
+            "thumbnail": "https://serpapi.com/searches/61a28c6fc56d930b6e109064/images/2584712cf913cd3edde4abdea54c2437eeb4524939eebac8760a583fe33e2af6.jpeg"
+        },
+        {
+            "name": "fruit",
+            "link": "https://www.google.com/search?q=Apple&tbm=isch&chips=q:apple,g_1:fruit:M6Y91j7v8rQ%3D&hl=en-US&sa=X&ved=2ahUKEwj00_3aqLn0AhXSbc0KHYJABVMQ4lYoA3oECAEQFg",
+            "chips": "q:apple,g_1:fruit:M6Y91j7v8rQ%3D",
+            "serpapi_link": "https://serpapi.com/search.json?chips=q%3Aapple%2Cg_1%3Afruit%3AM6Y91j7v8rQ%253D&device=desktop&engine=google&google_domain=google.com&ijn=0&q=Apple&tbm=isch",
+            "thumbnail": "https://serpapi.com/searches/61a28c6fc56d930b6e109064/images/2584712cf913cd3edde4abdea54c24378c1f9cdbf8278f7d6aba1058f1c29e23.jpeg"
+        },
+        {
+            "name": "clipart",
+            "link": "https://www.google.com/search?q=Apple&tbm=isch&chips=q:apple,g_1:clipart:2eHNEYTahaA%3D&hl=en-US&sa=X&ved=2ahUKEwj00_3aqLn0AhXSbc0KHYJABVMQ4lYoBHoECAEQGA",
+            "chips": "q:apple,g_1:clipart:2eHNEYTahaA%3D",
+            "serpapi_link": "https://serpapi.com/search.json?chips=q%3Aapple%2Cg_1%3Aclipart%3A2eHNEYTahaA%253D&device=desktop&engine=google&google_domain=google.com&ijn=0&q=Apple&tbm=isch",
+            "thumbnail": "https://serpapi.com/searches/61a28c6fc56d930b6e109064/images/2584712cf913cd3edde4abdea54c2437ce2703d921dddea083ffaa5b6faf4bb8.png"
+        },
+        {
+            "name": "wallpaper",
+            "link": "https://www.google.com/search?q=Apple&tbm=isch&chips=q:apple,g_1:wallpaper:yhgk7GFgjO0%3D&hl=en-US&sa=X&ved=2ahUKEwj00_3aqLn0AhXSbc0KHYJABVMQ4lYoBXoECAEQGg",
+            "chips": "q:apple,g_1:wallpaper:yhgk7GFgjO0%3D",
+            "serpapi_link": "https://serpapi.com/search.json?chips=q%3Aapple%2Cg_1%3Awallpaper%3Ayhgk7GFgjO0%253D&device=desktop&engine=google&google_domain=google.com&ijn=0&q=Apple&tbm=isch",
+            "thumbnail": "https://serpapi.com/searches/61a28c6fc56d930b6e109064/images/2584712cf913cd3edde4abdea54c2437f0fe508206dcf8d12177e31c3298a4da.jpeg"
+        },
+        {
+            "name": "green",
+            "link": "https://www.google.com/search?q=Apple&tbm=isch&chips=q:apple,g_1:green:erE9Xw6mPIM%3D&hl=en-US&sa=X&ved=2ahUKEwj00_3aqLn0AhXSbc0KHYJABVMQ4lYoBnoECAEQHA",
+            "chips": "q:apple,g_1:green:erE9Xw6mPIM%3D",
+            "serpapi_link": "https://serpapi.com/search.json?chips=q%3Aapple%2Cg_1%3Agreen%3AerE9Xw6mPIM%253D&device=desktop&engine=google&google_domain=google.com&ijn=0&q=Apple&tbm=isch",
+            "thumbnail": "https://serpapi.com/searches/61a28c6fc56d930b6e109064/images/2584712cf913cd3edde4abdea54c243723b8ad82872a2fa36fd004d30cad1ed2.jpeg"
+        },
+        {
+            "name": "transparent",
+            "link": "https://www.google.com/search?q=Apple&tbm=isch&chips=q:apple,g_1:transparent:BfKHXTzGjRk%3D&hl=en-US&sa=X&ved=2ahUKEwj00_3aqLn0AhXSbc0KHYJABVMQ4lYoB3oECAEQHg",
+            "chips": "q:apple,g_1:transparent:BfKHXTzGjRk%3D",
+            "serpapi_link": "https://serpapi.com/search.json?chips=q%3Aapple%2Cg_1%3Atransparent%3ABfKHXTzGjRk%253D&device=desktop&engine=google&google_domain=google.com&ijn=0&q=Apple&tbm=isch",
+            "thumbnail": "https://serpapi.com/searches/61a28c6fc56d930b6e109064/images/2584712cf913cd3edde4abdea54c2437750b991bc06ba35558c9d71fa729cce7.jpeg"
+        },
+        {
+            "name": "drawing",
+            "link": "https://www.google.com/search?q=Apple&tbm=isch&chips=q:apple,g_1:drawing:jVT-aynlpus%3D&hl=en-US&sa=X&ved=2ahUKEwj00_3aqLn0AhXSbc0KHYJABVMQ4lYoCHoECAEQIA",
+            "chips": "q:apple,g_1:drawing:jVT-aynlpus%3D",
+            "serpapi_link": "https://serpapi.com/search.json?chips=q%3Aapple%2Cg_1%3Adrawing%3AjVT-aynlpus%253D&device=desktop&engine=google&google_domain=google.com&ijn=0&q=Apple&tbm=isch",
+            "thumbnail": "https://serpapi.com/searches/61a28c6fc56d930b6e109064/images/2584712cf913cd3edde4abdea54c24373708cb6e85f24279688dce599411bd93.jpeg"
+        },
+        {
+            "name": "teacher",
+            "link": "https://www.google.com/search?q=Apple&tbm=isch&chips=q:apple,g_1:teacher:MiTM1FmmX0A%3D&hl=en-US&sa=X&ved=2ahUKEwj00_3aqLn0AhXSbc0KHYJABVMQ4lYoCXoECAEQIg",
+            "chips": "q:apple,g_1:teacher:MiTM1FmmX0A%3D",
+            "serpapi_link": "https://serpapi.com/search.json?chips=q%3Aapple%2Cg_1%3Ateacher%3AMiTM1FmmX0A%253D&device=desktop&engine=google&google_domain=google.com&ijn=0&q=Apple&tbm=isch",
+            "thumbnail": "https://serpapi.com/searches/61a28c6fc56d930b6e109064/images/2584712cf913cd3edde4abdea54c24376b059a506f9d82ed87522bd133734350.jpeg"
+        },
+        {
+            "name": "ipad",
+            "link": "https://www.google.com/search?q=Apple&tbm=isch&chips=q:apple,g_1:ipad:tSqF9RGIafE%3D&hl=en-US&sa=X&ved=2ahUKEwj00_3aqLn0AhXSbc0KHYJABVMQ4lYoCnoECAEQJA",
+            "chips": "q:apple,g_1:ipad:tSqF9RGIafE%3D",
+            "serpapi_link": "https://serpapi.com/search.json?chips=q%3Aapple%2Cg_1%3Aipad%3AtSqF9RGIafE%253D&device=desktop&engine=google&google_domain=google.com&ijn=0&q=Apple&tbm=isch",
+            "thumbnail": "https://serpapi.com/searches/61a28c6fc56d930b6e109064/images/2584712cf913cd3edde4abdea54c2437788d7dcb09d339c883b75ff7d046a3be.jpeg"
+        },
+        {
+            "name": "black",
+            "link": "https://www.google.com/search?q=Apple&tbm=isch&chips=q:apple,g_1:black:zvnbeWh9udQ%3D&hl=en-US&sa=X&ved=2ahUKEwj00_3aqLn0AhXSbc0KHYJABVMQ4lYoC3oECAEQJg",
+            "chips": "q:apple,g_1:black:zvnbeWh9udQ%3D",
+            "serpapi_link": "https://serpapi.com/search.json?chips=q%3Aapple%2Cg_1%3Ablack%3AzvnbeWh9udQ%253D&device=desktop&engine=google&google_domain=google.com&ijn=0&q=Apple&tbm=isch",
+            "thumbnail": "https://serpapi.com/searches/61a28c6fc56d930b6e109064/images/2584712cf913cd3edde4abdea54c2437b3b931e550432636867b2fb67ab12a4c.jpeg"
+        },
+        {
+            "name": "gold",
+            "link": "https://www.google.com/search?q=Apple&tbm=isch&chips=q:apple,g_1:gold:EeXcCPdw4qk%3D&hl=en-US&sa=X&ved=2ahUKEwj00_3aqLn0AhXSbc0KHYJABVMQ4lYoDHoECAEQKA",
+            "chips": "q:apple,g_1:gold:EeXcCPdw4qk%3D",
+            "serpapi_link": "https://serpapi.com/search.json?chips=q%3Aapple%2Cg_1%3Agold%3AEeXcCPdw4qk%253D&device=desktop&engine=google&google_domain=google.com&ijn=0&q=Apple&tbm=isch",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjqPcJdKgltRvmKDhJ5UezFAAMLAflZuf0KfPq050&usqp=CAU"
+        },
+        {
+            "name": "cute",
+            "link": "https://www.google.com/search?q=Apple&tbm=isch&chips=q:apple,g_1:cute:mi939rFU1_k%3D&hl=en-US&sa=X&ved=2ahUKEwj00_3aqLn0AhXSbc0KHYJABVMQ4lYoDXoECAEQKg",
+            "chips": "q:apple,g_1:cute:mi939rFU1_k%3D",
+            "serpapi_link": "https://serpapi.com/search.json?chips=q%3Aapple%2Cg_1%3Acute%3Ami939rFU1_k%253D&device=desktop&engine=google&google_domain=google.com&ijn=0&q=Apple&tbm=isch",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQsNqqs3lE5QiRM_h9_TRz5W1JyLPW-iikIRN6n3M&usqp=CAU"
+        },
+        {
+            "name": "white",
+            "link": "https://www.google.com/search?q=Apple&tbm=isch&chips=q:apple,g_1:white:Ect1Gfl-QH0%3D&hl=en-US&sa=X&ved=2ahUKEwj00_3aqLn0AhXSbc0KHYJABVMQ4lYoDnoECAEQLA",
+            "chips": "q:apple,g_1:white:Ect1Gfl-QH0%3D",
+            "serpapi_link": "https://serpapi.com/search.json?chips=q%3Aapple%2Cg_1%3Awhite%3AEct1Gfl-QH0%253D&device=desktop&engine=google&google_domain=google.com&ijn=0&q=Apple&tbm=isch",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrjjFFGc3lRKSsu-or6lNhJBTbX56PW4tLKzHhRN47wLEuih50&usqp=CAU"
+        },
+        {
+            "name": "mac",
+            "link": "https://www.google.com/search?q=Apple&tbm=isch&chips=q:apple,g_1:mac:co8driAs0wc%3D&hl=en-US&sa=X&ved=2ahUKEwj00_3aqLn0AhXSbc0KHYJABVMQ4lYoD3oECAEQLg",
+            "chips": "q:apple,g_1:mac:co8driAs0wc%3D",
+            "serpapi_link": "https://serpapi.com/search.json?chips=q%3Aapple%2Cg_1%3Amac%3Aco8driAs0wc%253D&device=desktop&engine=google&google_domain=google.com&ijn=0&q=Apple&tbm=isch",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV1qrM7xh_8icO0MGUxywagveitk0DIMw_1K6oD1lGEUgRWr0X&usqp=CAU"
+        },
+        {
+            "name": "tree",
+            "link": "https://www.google.com/search?q=Apple&tbm=isch&chips=q:apple,g_1:tree:1ZDDMAYzsdw%3D&hl=en-US&sa=X&ved=2ahUKEwj00_3aqLn0AhXSbc0KHYJABVMQ4lYoEHoECAEQMA",
+            "chips": "q:apple,g_1:tree:1ZDDMAYzsdw%3D",
+            "serpapi_link": "https://serpapi.com/search.json?chips=q%3Aapple%2Cg_1%3Atree%3A1ZDDMAYzsdw%253D&device=desktop&engine=google&google_domain=google.com&ijn=0&q=Apple&tbm=isch",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3FrgxP6L5lfljtXRGDf1ntGNRb2Hj9wavM91J9kY&usqp=CAU"
+        },
+        {
+            "name": "vector",
+            "link": "https://www.google.com/search?q=Apple&tbm=isch&chips=q:apple,g_1:vector:RI7qr8Dq8-I%3D&hl=en-US&sa=X&ved=2ahUKEwj00_3aqLn0AhXSbc0KHYJABVMQ4lYoEXoECAEQMg",
+            "chips": "q:apple,g_1:vector:RI7qr8Dq8-I%3D",
+            "serpapi_link": "https://serpapi.com/search.json?chips=q%3Aapple%2Cg_1%3Avector%3ARI7qr8Dq8-I%253D&device=desktop&engine=google&google_domain=google.com&ijn=0&q=Apple&tbm=isch",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz8STUtniVykf7QaV85D8P2v4szZJijzrhhmeX4do&usqp=CAU"
+        },
+        {
+            "name": "school",
+            "link": "https://www.google.com/search?q=Apple&tbm=isch&chips=q:apple,g_1:school:GsIXd805zvw%3D&hl=en-US&sa=X&ved=2ahUKEwj00_3aqLn0AhXSbc0KHYJABVMQ4lYoEnoECAEQNA",
+            "chips": "q:apple,g_1:school:GsIXd805zvw%3D",
+            "serpapi_link": "https://serpapi.com/search.json?chips=q%3Aapple%2Cg_1%3Aschool%3AGsIXd805zvw%253D&device=desktop&engine=google&google_domain=google.com&ijn=0&q=Apple&tbm=isch",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk3c_A7GRKcpqHQkloMEuN8ouqA0RBcsAH29JX0Fn26xHNicHy&usqp=CAU"
+        },
+        {
+            "name": "blue",
+            "link": "https://www.google.com/search?q=Apple&tbm=isch&chips=q:apple,g_1:blue:Ju-O0jaI5H8%3D&hl=en-US&sa=X&ved=2ahUKEwj00_3aqLn0AhXSbc0KHYJABVMQ4lYoE3oECAEQNg",
+            "chips": "q:apple,g_1:blue:Ju-O0jaI5H8%3D",
+            "serpapi_link": "https://serpapi.com/search.json?chips=q%3Aapple%2Cg_1%3Ablue%3AJu-O0jaI5H8%253D&device=desktop&engine=google&google_domain=google.com&ijn=0&q=Apple&tbm=isch",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBbO5mAmbhwN_ryfXIUmR4T3csH1OXq-Zm7alwCoQVLRcNdlkR&usqp=CAU"
+        },
+        {
+            "name": "outline",
+            "link": "https://www.google.com/search?q=Apple&tbm=isch&chips=q:apple,g_1:outline:zCjr8CWUlPc%3D&hl=en-US&sa=X&ved=2ahUKEwj00_3aqLn0AhXSbc0KHYJABVMQ4lYoFHoECAEQOA",
+            "chips": "q:apple,g_1:outline:zCjr8CWUlPc%3D",
+            "serpapi_link": "https://serpapi.com/search.json?chips=q%3Aapple%2Cg_1%3Aoutline%3AzCjr8CWUlPc%253D&device=desktop&engine=google&google_domain=google.com&ijn=0&q=Apple&tbm=isch",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGdF2FwIqzXNomj5HXUKXxehKSLqBKqp92XkPWo2DM8sxzIdYJ&usqp=CAU"
+        },
+        {
+            "name": "animated",
+            "link": "https://www.google.com/search?q=Apple&tbm=isch&chips=q:apple,g_1:animated:65rm4adqYzY%3D&hl=en-US&sa=X&ved=2ahUKEwj00_3aqLn0AhXSbc0KHYJABVMQ4lYoFXoECAEQOg",
+            "chips": "q:apple,g_1:animated:65rm4adqYzY%3D",
+            "serpapi_link": "https://serpapi.com/search.json?chips=q%3Aapple%2Cg_1%3Aanimated%3A65rm4adqYzY%253D&device=desktop&engine=google&google_domain=google.com&ijn=0&q=Apple&tbm=isch",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmSk5TCO8pw8bPpqtaPjKjSsTOZjLep1jGIlox_KmZbgBgeupR&usqp=CAU"
+        },
+        {
+            "name": "water",
+            "link": "https://www.google.com/search?q=Apple&tbm=isch&chips=q:apple,g_1:water:xuDfVHGSp9A%3D&hl=en-US&sa=X&ved=2ahUKEwj00_3aqLn0AhXSbc0KHYJABVMQ4lYoFnoECAEQPA",
+            "chips": "q:apple,g_1:water:xuDfVHGSp9A%3D",
+            "serpapi_link": "https://serpapi.com/search.json?chips=q%3Aapple%2Cg_1%3Awater%3AxuDfVHGSp9A%253D&device=desktop&engine=google&google_domain=google.com&ijn=0&q=Apple&tbm=isch",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmFbNPmYPM62RvVn3gmWGBBCrB6SvvZjbF81honPs&usqp=CAU"
+        },
+        {
+            "name": "icon",
+            "link": "https://www.google.com/search?q=Apple&tbm=isch&chips=q:apple,g_1:icon:mk4-O0SFGms%3D&hl=en-US&sa=X&ved=2ahUKEwj00_3aqLn0AhXSbc0KHYJABVMQ4lYoF3oECAEQPg",
+            "chips": "q:apple,g_1:icon:mk4-O0SFGms%3D",
+            "serpapi_link": "https://serpapi.com/search.json?chips=q%3Aapple%2Cg_1%3Aicon%3Amk4-O0SFGms%253D&device=desktop&engine=google&google_domain=google.com&ijn=0&q=Apple&tbm=isch",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7gS_UAClM6c7_E91A-Pu76eX7QhXjD6dgGL04sw8&usqp=CAU"
+        },
+        {
+            "name": "real",
+            "link": "https://www.google.com/search?q=Apple&tbm=isch&chips=q:apple,g_1:real:GnAewUhanks%3D&hl=en-US&sa=X&ved=2ahUKEwj00_3aqLn0AhXSbc0KHYJABVMQ4lYoGHoECAEQQA",
+            "chips": "q:apple,g_1:real:GnAewUhanks%3D",
+            "serpapi_link": "https://serpapi.com/search.json?chips=q%3Aapple%2Cg_1%3Areal%3AGnAewUhanks%253D&device=desktop&engine=google&google_domain=google.com&ijn=0&q=Apple&tbm=isch",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1HkiE-SOkL1VbZsjkJtpiWGOUa0KL5R99R6mtauVGJNZtAtoC&usqp=CAU"
+        },
+        {
+            "name": "ios",
+            "link": "https://www.google.com/search?q=Apple&tbm=isch&chips=q:apple,g_1:ios:yXY5pxnkMWg%3D&hl=en-US&sa=X&ved=2ahUKEwj00_3aqLn0AhXSbc0KHYJABVMQ4lYoGXoECAEQQg",
+            "chips": "q:apple,g_1:ios:yXY5pxnkMWg%3D",
+            "serpapi_link": "https://serpapi.com/search.json?chips=q%3Aapple%2Cg_1%3Aios%3AyXY5pxnkMWg%253D&device=desktop&engine=google&google_domain=google.com&ijn=0&q=Apple&tbm=isch",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTya-hefaJQ1bIIvN4cmj_LwTwkukybQDfN8Ijz2Y54D4WvjNOA&usqp=CAU"
+        },
+        {
+            "name": "sketch",
+            "link": "https://www.google.com/search?q=Apple&tbm=isch&chips=q:apple,g_1:sketch:gsg3Jbu1UzY%3D&hl=en-US&sa=X&ved=2ahUKEwj00_3aqLn0AhXSbc0KHYJABVMQ4lYoGnoECAEQRA",
+            "chips": "q:apple,g_1:sketch:gsg3Jbu1UzY%3D",
+            "serpapi_link": "https://serpapi.com/search.json?chips=q%3Aapple%2Cg_1%3Asketch%3Agsg3Jbu1UzY%253D&device=desktop&engine=google&google_domain=google.com&ijn=0&q=Apple&tbm=isch",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9egemnLlPuK8Jr5DK0dxr13pGA8ZxJTRxEZhXvdg&usqp=CAU"
+        },
+        {
+            "name": "color",
+            "link": "https://www.google.com/search?q=Apple&tbm=isch&chips=q:apple,g_1:color:hYQrJ6wVg6o%3D&hl=en-US&sa=X&ved=2ahUKEwj00_3aqLn0AhXSbc0KHYJABVMQ4lYoG3oECAEQRg",
+            "chips": "q:apple,g_1:color:hYQrJ6wVg6o%3D",
+            "serpapi_link": "https://serpapi.com/search.json?chips=q%3Aapple%2Cg_1%3Acolor%3AhYQrJ6wVg6o%253D&device=desktop&engine=google&google_domain=google.com&ijn=0&q=Apple&tbm=isch",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeigHVqHdOvjx3JcH7sFnRso6MM2dTXiN4ypuNESRL4EFEGRWu&usqp=CAU"
+        },
+        {
+            "name": "small",
+            "link": "https://www.google.com/search?q=Apple&tbm=isch&chips=q:apple,g_1:small:ljRn2GnyvmQ%3D&hl=en-US&sa=X&ved=2ahUKEwj00_3aqLn0AhXSbc0KHYJABVMQ4lYoHHoECAEQSA",
+            "chips": "q:apple,g_1:small:ljRn2GnyvmQ%3D",
+            "serpapi_link": "https://serpapi.com/search.json?chips=q%3Aapple%2Cg_1%3Asmall%3AljRn2GnyvmQ%253D&device=desktop&engine=google&google_domain=google.com&ijn=0&q=Apple&tbm=isch",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaacIXV1I97wGmAQfu90BV3myPRaa-i7G7BSTdiko&usqp=CAU"
+        },
+        {
+            "name": "yellow",
+            "link": "https://www.google.com/search?q=Apple&tbm=isch&chips=q:apple,g_1:yellow:wsEyWpeXsgc%3D&hl=en-US&sa=X&ved=2ahUKEwj00_3aqLn0AhXSbc0KHYJABVMQ4lYoHXoECAEQSg",
+            "chips": "q:apple,g_1:yellow:wsEyWpeXsgc%3D",
+            "serpapi_link": "https://serpapi.com/search.json?chips=q%3Aapple%2Cg_1%3Ayellow%3AwsEyWpeXsgc%253D&device=desktop&engine=google&google_domain=google.com&ijn=0&q=Apple&tbm=isch",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIuQKu9uU5B8JKEy-dROhJAZufVqeur1dPwC1EsjPf36h4EsZf&usqp=CAU"
+        }
+    ],
+    "images_results": [{
+            "position": 1,
+            "thumbnail": "https://serpapi.com/searches/61a28c6fc56d930b6e109064/images/05109f1d08e78809ac8ac33e43ac30be36fe799ed67b01bb8b42b1203f73ed6e.jpeg",
+            "source": "applesfromny.com",
+            "title": "SnapDragon® - New York Apple Association",
+            "link": "https://www.applesfromny.com/varieties/snapdragon/",
+            "original": "https://www.applesfromny.com/wp-content/uploads/2020/06/SnapdragonNEW.png",
+            "is_product": false
+        },
+        {
+            "position": 2,
+            "thumbnail": "https://serpapi.com/searches/61a28c6fc56d930b6e109064/images/05109f1d08e7880997a7d55a45910361fe68c6ecad37992ee517563067e91c80.png",
+            "source": "en.wikipedia.org",
+            "title": "History of Apple Inc. - Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/History_of_Apple_Inc.",
+            "original": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/800px-Apple_logo_black.svg.png",
+            "is_product": false
+        },
+        {
+            "position": 3,
+            "thumbnail": "https://serpapi.com/searches/61a28c6fc56d930b6e109064/images/05109f1d08e78809a9adf0b791c1b11ad081c99392bb2fdb57a96c9169d40475.png",
+            "source": "linkedin.com",
+            "title": "Apple | LinkedIn",
+            "link": "https://www.linkedin.com/company/apple",
+            "original": "https://media-exp1.licdn.com/dms/image/C560BAQHdAaarsO-eyA/company-logo_200_200/0/1595530301220?e=2159024400&v=beta&t=IJmg_K1W7KCh6082rXN9V7gzlrD9GMwYqk_EjCrDxGw",
+            "is_product": false
+        },
+        {
+            "position": 4,
+            "thumbnail": "https://serpapi.com/searches/61a28c6fc56d930b6e109064/images/05109f1d08e78809a2de3b939cd334f4afbe8df6399e5906e30e376a97576fe3.jpeg",
+            "source": "usapple.org",
+            "title": "Apple Varieties - USApple",
+            "link": "https://usapple.org/apple-varieties",
+            "original": "https://usapple.org/wp-content/uploads/2019/10/apple-pink-lady.png",
+            "is_product": false
+        },
+        {
+            "position": 5,
+            "thumbnail": "https://serpapi.com/searches/61a28c6fc56d930b6e109064/images/05109f1d08e788090ac26d34e23713b4c040f3ebc802ff3ac04d261e7c9f0f67.jpeg",
+            "source": "apple.com",
+            "title": "Apple Events - September 2021 - Apple",
+            "link": "https://www.apple.com/apple-events/september-2021/",
+            "original": "https://www.apple.com/v/apple-events/home/t/images/meta/september2021__f5zmksnt6cuq_og.jpg?202110120754",
+            "is_product": false
+        },
+        {
+            "position": 6,
+            "thumbnail": "https://serpapi.com/searches/61a28c6fc56d930b6e109064/images/05109f1d08e78809f56a82b71793c756c9818aa5ac098437c8412bf1c526017c.jpeg",
+            "source": "collinsdictionary.com",
+            "title": "Apple definition and meaning | Collins English Dictionary",
+            "link": "https://www.collinsdictionary.com/dictionary/english/apple",
+            "original": "https://www.collinsdictionary.com/images/full/apple_158989157.jpg",
+            "is_product": false
+        },
+        {
+            "position": 7,
+            "thumbnail": "https://serpapi.com/searches/61a28c6fc56d930b6e109064/images/05109f1d08e78809f463636f8f6a1186b7f44d6182a513232b9886057b1d5c01.png",
+            "source": "youtube.com",
+            "title": "Apple Singapore - YouTube",
+            "link": "https://www.youtube.com/channel/UCNVEosBert4OFUBoJ_P2R5g",
+            "original": "https://yt3.ggpht.com/ytc/AKedOLRIJUapgrkJHrdwFR7PNNxRQ4Ti-SE3cYFw8LymqQ=s900-c-k-c0x00ffffff-no-rj",
+            "is_product": false
+        },
+        {
+            "position": 8,
+            "thumbnail": "https://serpapi.com/searches/61a28c6fc56d930b6e109064/images/05109f1d08e788095f2dae3c66e4ff807e50c6d9a0396a2f98c13f94e1e6ce55.jpeg",
+            "source": "applesfromny.com",
+            "title": "Jonagold - New York Apple Association",
+            "link": "https://www.applesfromny.com/varieties/jonagold/",
+            "original": "https://www.applesfromny.com/wp-content/uploads/2020/05/Jonagold_NYAS-Apples2.png",
+            "is_product": false
+        },
+        {
+            "position": 9,
+            "thumbnail": "https://serpapi.com/searches/61a28c6fc56d930b6e109064/images/05109f1d08e788093707ca64ed401aac15c2e66d1db93fded0b406fd226a80ef.jpeg",
+            "source": "unsplash.com",
+            "title": "Apple Pictures [HD] | Download Free Images on Unsplash",
+            "link": "https://unsplash.com/images/food/apple",
+            "original": "https://media.istockphoto.com/photos/red-apple-with-leaf-isolated-on-white-background-picture-id185262648?b=1&k=20&m=185262648&s=170667a&w=0&h=2ouM2rkF5oBplBmZdqs3hSOdBzA4mcGNCoF2P0KUMTM=",
+            "is_product": false
+        },
+        {
+            "position": 10,
+            "thumbnail": "https://serpapi.com/searches/61a28c6fc56d930b6e109064/images/05109f1d08e78809559711dc04dbb710ee123f3557d3e8df7782c569c2d3a7a3.png",
+            "source": "apple.com",
+            "title": "Site Map - Apple",
+            "link": "https://www.apple.com/sitemap/",
+            "original": "https://www.apple.com/ac/structured-data/images/open_graph_logo.png?202111031450",
+            "is_product": false
+        },
+        {
+            "position": 11,
+            "thumbnail": "https://serpapi.com/searches/61a28c6fc56d930b6e109064/images/05109f1d08e7880997a7d55a459103616c067d0f3ed9724cf42f2b8d291e141d.jpeg",
+            "source": "macrumors.com",
+            "title": "Gurman: Apple's Second Fall Event to Focus on Both New Macs and New iPads - MacRumors",
+            "link": "https://www.macrumors.com/2021/09/13/gurman-apple-second-event-new-macs-ipads/",
+            "original": "https://images.macrumors.com/t/V3mjve60VWoEhjek6dFX19CuyQQ=/1600x/article-new/2021/09/apple-event-september-14.jpg",
+            "is_product": false
+        },
+        {
+            "position": 12,
+            "thumbnail": "https://serpapi.com/searches/61a28c6fc56d930b6e109064/images/05109f1d08e7880997a7d55a4591036155fcad29fa2a3bb0c3dd66160f9e22ec.png",
+            "source": "apple.com",
+            "title": "iTunes - Apple",
+            "link": "https://www.apple.com/itunes/",
+            "original": "https://www.apple.com/ac/structured-data/images/knowledge_graph_logo.png?202104211633",
+            "is_product": false
+        },
+        {
+            "position": 13,
+            "thumbnail": "https://serpapi.com/searches/61a28c6fc56d930b6e109064/images/05109f1d08e7880997a7d55a45910361397798a48dd25cff82b46f1c0853de7d.jpeg",
+            "source": "healthline.com",
+            "title": "10 Impressive Health Benefits of Apples",
+            "link": "https://www.healthline.com/nutrition/10-health-benefits-of-apples",
+            "original": "https://post.healthline.com/wp-content/uploads/2020/09/health-benefits-of-apples-1200x628-facebook-1200x628.jpg",
+            "is_product": false
+        },
+        {
+            "position": 14,
+            "thumbnail": "https://serpapi.com/searches/61a28c6fc56d930b6e109064/images/05109f1d08e7880997a7d55a45910361c9e8ecc3cca8840c8f2a10a368d54964.jpeg",
+            "source": "apple.com",
+            "title": "Buy AirTag - Apple",
+            "link": "https://www.apple.com/shop/buy-airtag/airtag",
+            "original": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airtag-witb-202104_FMT_WHH?wid=452&hei=452&fmt=jpeg&qlt=80&.v=1618423108000",
+            "is_product": false
+        },
+        {
+            "position": 15,
+            "thumbnail": "https://serpapi.com/searches/61a28c6fc56d930b6e109064/images/05109f1d08e7880997a7d55a45910361760caf6fd369081fd9efeeb44a4669e0.jpeg",
+            "source": "britannica.com",
+            "title": "apple | Description, Cultivation, & Uses | Britannica",
+            "link": "https://www.britannica.com/plant/apple-fruit-and-tree",
+            "original": "https://cdn.britannica.com/s:300x169,c:crop/47/103847-050-8E18B710/varieties-apples.jpg",
+            "is_product": false
+        },
+        {
+            "position": 16,
+            "thumbnail": "https://serpapi.com/searches/61a28c6fc56d930b6e109064/images/05109f1d08e7880997a7d55a45910361ad7d51827a4b65139e92f01cb11a964a.jpeg",
+            "source": "wired.com",
+            "title": "It's Official: Apple Is Now a Silicon Company | WIRED",
+            "link": "https://www.wired.com/story/its-official-apple-is-now-a-silicon-company/",
+            "original": "https://media.wired.com/photos/6081f4280c9b5877078878e2/master/w_2560%2Cc_limit/business_plaintext_apple_1313768378.jpg",
+            "is_product": false
+        },
+        {
+            "position": 17,
+            "thumbnail": "https://serpapi.com/searches/61a28c6fc56d930b6e109064/images/05109f1d08e7880997a7d55a459103618d496ebe70d8eb7b6e06c6357e2c8148.jpeg",
+            "source": "heb.com · In stock",
+            "title": "Fresh Gala Apples - Shop Fruit at H-E-B",
+            "link": "https://www.heb.com/product-detail/fresh-gala-apples/375146",
+            "original": "https://images.heb.com/is/image/HEBGrocery/000375146",
+            "is_product": true,
+            "in_stock": true
+        },
+        {
+            "position": 18,
+            "thumbnail": "https://serpapi.com/searches/61a28c6fc56d930b6e109064/images/05109f1d08e7880997a7d55a459103619b55530fa81da9ec3e1997bf0f178710.jpeg",
+            "source": "dw.com",
+            "title": "Germany launches antitrust probe against Apple | News | DW | 21.06.2021",
+            "link": "https://www.dw.com/en/germany-launches-antitrust-probe-against-apple/a-57982229",
+            "original": "https://static.dw.com/image/57375770_101.jpg",
+            "is_product": false
+        },
+        {
+            "position": 19,
+            "thumbnail": "https://serpapi.com/searches/61a28c6fc56d930b6e109064/images/05109f1d08e7880997a7d55a45910361ffab7f69f1df406aea886e7518626136.jpeg",
+            "source": "shutterstock.com",
+            "title": "Apple Images, Stock Photos & Vectors | Shutterstock",
+            "link": "https://www.shutterstock.com/search/apple",
+            "original": "https://image.shutterstock.com/image-photo/red-apple-isolated-on-white-260nw-1727544364.jpg",
+            "is_product": true
+        },
+        {
+            "position": 20,
+            "thumbnail": "https://serpapi.com/searches/61a28c6fc56d930b6e109064/images/05109f1d08e7880997a7d55a45910361545a1fbe340d055e0f691d6b76bb7ac8.jpeg",
+            "source": "bbc.com",
+            "title": "Apple faces two EU anti-competition probes - BBC News",
+            "link": "https://www.bbc.com/news/technology-53066518",
+            "original": "https://ichef.bbci.co.uk/news/976/cpsprodpb/421A/production/_112922961_apple.jpg",
+            "is_product": false
+        },
+        {
+            "position": 21,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAlq9yrc9xlClkj6CrWdT2hZpBnZcOHb8oxA&usqp=CAU",
+            "source": "apple.com",
+            "title": "Environment - Apple",
+            "link": "https://www.apple.com/environment/",
+            "original": "https://www.apple.com/v/environment/n/images/meta/og__bghpqp9r7ewi.png?202110141612",
+            "is_product": false
+        },
+        {
+            "position": 22,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS51yW-4jnASQx5qe12Y6Hs3MI6k241Y3a9ug&usqp=CAU",
+            "source": "github.com",
+            "title": "Apple · GitHub",
+            "link": "https://github.com/apple",
+            "original": "https://avatars.githubusercontent.com/u/10639145?s=280&v=4",
+            "is_product": false
+        },
+        {
+            "position": 23,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE5tQH2UwdvN7VQuRBzEPRW0iuiNU4uqZDoA&usqp=CAU",
+            "source": "apple.com · In stock",
+            "title": "Buy $25 Apple Gift Cards - Apple",
+            "link": "https://www.apple.com/shop/buy-giftcard/giftcard/25-dollars",
+            "original": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/giftcard-email-electricolor-select-2020?wid=1625&hei=2000&fmt=jpeg&qlt=95&.v=1595634529000",
+            "is_product": true,
+            "in_stock": true
+        },
+        {
+            "position": 24,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTNFJtaMn_Y5zPbpVWA0ojPrD_WqKhvGgnfw&usqp=CAU",
+            "source": "prevention.com",
+            "title": "25 Different Types of Apples — Apple Varieties and Their Tastes",
+            "link": "https://www.prevention.com/food-nutrition/g20481875/apple-varieties-and-recipes/",
+            "original": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/apples-at-farmers-market-royalty-free-image-1627321463.jpg?crop=1.00xw:0.631xh;0.00160xw,0.206xh&resize=1200:*",
+            "is_product": false
+        },
+        {
+            "position": 25,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREz7Zb2MyXWoKHohzd68KqcpPXqEAbP8jpMA&usqp=CAU",
+            "source": "theverge.com",
+            "title": "Apple is switching Macs to its own processors starting later this year - The Verge",
+            "link": "https://www.theverge.com/2020/6/22/21295475/apple-mac-processors-arm-silicon-chips-wwdc-2020",
+            "original": "https://cdn.vox-cdn.com/thumbor/m1zw7TQKecwZjlL-3aHObViuCQU=/1400x788/filters:format(png)/cdn.vox-cdn.com/uploads/chorus_asset/file/20047209/cX3afz7.png",
+            "is_product": false
+        },
+        {
+            "position": 26,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDbSp3Dc5mJ6O9Ui79nFoeG8k9C5WAgZ_kPg&usqp=CAU",
+            "source": "heb.com · In stock",
+            "title": "Fresh Fuji Apples - Shop Fruit at H-E-B",
+            "link": "https://www.heb.com/product-detail/fresh-fuji-apples/325191",
+            "original": "https://images.heb.com/is/image/HEBGrocery/000325191",
+            "is_product": true,
+            "in_stock": true
+        },
+        {
+            "position": 27,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8Iwh00bCZ5tE9wL6CIlSNwtU-PUJ77OJr1w&usqp=CAU",
+            "source": "gadgets.ndtv.com",
+            "title": "Apple's Spring Loaded Event Today: How to Watch Live, What's Expected | Technology News",
+            "link": "https://gadgets.ndtv.com/tablets/news/apple-event-2021-livestream-live-how-to-watch-launch-ipad-pro-imac-2021-airtags-expect-2417629",
+            "original": "https://i.gadgets360cdn.com/large/apple_reuters-full_1584450479124.JPG?downsize=950:*",
+            "is_product": false
+        },
+        {
+            "position": 28,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSwhODGAzyy32JI6U2VWfTYBkRVkSrP3bjMg&usqp=CAU",
+            "source": "reuters.com",
+            "title": "Apple adds virtual IDs on iPhone, video plans that rival Zoom, Teams | Reuters",
+            "link": "https://www.reuters.com/technology/apple-developers-look-app-store-changes-annual-conference-2021-06-07/",
+            "original": "https://cloudfront-us-east-2.images.arcpublishing.com/reuters/MZSTZLBEDFO6XLX6ASXP63NCA4.jpg",
+            "is_product": false
+        },
+        {
+            "position": 29,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWzqfoU2PjTrfgkXRCLp7FM3ON9XC6yuZQDg&usqp=CAU",
+            "source": "verywellhealth.com",
+            "title": "The Many Health Benefits of Apples",
+            "link": "https://www.verywellhealth.com/health-benefits-of-apples-pectin-and-cholesterol-697704",
+            "original": "https://www.verywellhealth.com/thmb/VtIaA_plARsDh_sD5agmy7pOIxw=/1698x955/smart/filters:no_upscale()/apples-2-56a144bd3df78cf7726902c5.jpg",
+            "is_product": false
+        },
+        {
+            "position": 30,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQnr6Keafy3Uaxemi3bJKW0gvGvb-e_XELig&usqp=CAU",
+            "source": "theguardian.com",
+            "title": "No tracking, no revenue: Apple's privacy feature costs ad companies millions | Apple | The Guardian",
+            "link": "https://www.theguardian.com/technology/2018/jan/09/apple-tracking-block-costs-advertising-companies-millions-dollars-criteo-web-browser-safari",
+            "original": "https://i.guim.co.uk/img/media/1e7a0b2ce7932ac12684527842a6070a5e9ffb33/161_198_3124_1874/master/3124.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=be815845fe03ec1813e466c83856ba5c",
+            "is_product": false
+        },
+        {
+            "position": 31,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTMekaV12iiUfvOvWMsTek29X9z29_iTLnrg&usqp=CAU",
+            "source": "apple.com · In stock",
+            "title": "Siri Remote - Apple",
+            "link": "https://www.apple.com/shop/product/MJFM3LL/A/siri-remote",
+            "original": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MJFM3_AV2?wid=1144&hei=1144&fmt=jpeg&qlt=80&.v=1617222661000",
+            "is_product": true,
+            "in_stock": true
+        },
+        {
+            "position": 32,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ868djAR5mIlAFnnjF---4paarCg48aQTr-g&usqp=CAU",
+            "source": "everydayhealth.com",
+            "title": "Apples 101: Benefits, Weight Loss Potential, Side Effects, and More | Everyday Health",
+            "link": "https://www.everydayhealth.com/diet-nutrition/apples-benefits-weight-loss-potential-side-effects-and-more/",
+            "original": "https://images.everydayhealth.com/images/apples-101-about-1440x810.jpg?sfvrsn=f86f2644_1",
+            "is_product": false
+        },
+        {
+            "position": 33,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE5bifS_4wmfnRfOfREj50e0xX39haZ2ebKA&usqp=CAU",
+            "source": "facebook.com",
+            "title": "Apple - Home | Facebook",
+            "link": "https://www.facebook.com/apple/",
+            "original": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=3607576916001554",
+            "is_product": false
+        },
+        {
+            "position": 34,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTHrrugdgmnZw6C2QISFldDtdb5Q_aFfzsSA&usqp=CAU",
+            "source": "arstechnica.com",
+            "title": "The accidental notary: Apple approves notorious malware to run on Macs | Ars Technica",
+            "link": "https://arstechnica.com/information-technology/2020/09/mac-malware-gets-apples-seal-of-approval-thanks-to-notarization-goof/",
+            "original": "https://cdn.arstechnica.net/wp-content/uploads/2020/09/poison-apple-malware-800x450.jpg",
+            "is_product": false
+        },
+        {
+            "position": 35,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqOtVA-wnfKA1IQul-Jl7No9Iu8LF2KurOvw&usqp=CAU",
+            "source": "appleforthat.stemilt.com",
+            "title": "Jonagold Apple Uses | There's an Apple for That",
+            "link": "https://appleforthat.stemilt.com/apples/jonagold/",
+            "original": "http://appleforthat.stemilt.com/wp-content/uploads/2016/05/Jonagold-200px.png",
+            "is_product": false
+        },
+        {
+            "position": 36,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_KM6kDYhD4vpR8ZXLomaS8EE-mYe2a_zgrw&usqp=CAU",
+            "source": "apple.com",
+            "title": "Buy Apple Gift Cards - Apple",
+            "link": "https://www.apple.com/shop/buy-giftcard/giftcard",
+            "original": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/giftcard-email-daily-select-2020?wid=600&hei=600&fmt=png-alpha&.v=1595434681000",
+            "is_product": false
+        },
+        {
+            "position": 37,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjEVvtYsqjwIL88VeWjARqGAejgnUX5rMNCg&usqp=CAU",
+            "source": "seas.harvard.edu",
+            "title": "How apples get their shapes",
+            "link": "https://www.seas.harvard.edu/news/2021/10/how-apples-get-their-shapes",
+            "original": "https://www.seas.harvard.edu/sites/default/files/2021-10/an_vision-gDPaDDy6_WE-unsplash.jpg",
+            "is_product": false
+        },
+        {
+            "position": 38,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPXJt0rOCCYc6mP53xFUXokwKYFYEh4KlKcg&usqp=CAU",
+            "source": "shutterstock.com",
+            "title": "Apple Images, Stock Photos & Vectors | Shutterstock",
+            "link": "https://www.shutterstock.com/search/apple",
+            "original": "https://image.shutterstock.com/image-vector/vector-red-apple-icon-260nw-659128897.jpg",
+            "is_product": true
+        },
+        {
+            "position": 39,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLUa2j1YPPR-If6DnpNaOgV6JH1n5eUNkY-A&usqp=CAU",
+            "source": "washingtonpost.com",
+            "title": "Apple earnings highlight search deal with Google - The Washington Post",
+            "link": "https://www.washingtonpost.com/technology/2020/10/29/apple-google-search-lawsuit/",
+            "original": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DLC4OOXF6EI6VP2EBUY4QWBYUU.jpg",
+            "is_product": false
+        },
+        {
+            "position": 40,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKZiyB4ZjnHpBTuNdc0vFbET-vj4CCYzUFMg&usqp=CAU",
+            "source": "forbes.com",
+            "title": "Apple Mac Users Warned To Check For 'Very Malicious' New Xloader Malware",
+            "link": "https://www.forbes.com/sites/zakdoffman/2021/07/21/apple-users-surprise-new-warning-as-windows-10-threat-suddenly-targets-macs/",
+            "original": "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F60f4a2e4f433f5bd50aa1ed1%2F-Very-malicious--malware-warning-issued-for-millions-of-Apple-users%2F960x0.jpg%3FcropX1%3D984%26cropX2%3D3589%26cropY1%3D114%26cropY2%3D1618",
+            "is_product": false
+        },
+        {
+            "position": 41,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_MITXtqqhRhlGfYlqkmrPsPTn0Ylel0FUdw&usqp=CAU",
+            "source": "ft.com",
+            "title": "EU to charge Apple with antitrust abuse for first time | Financial Times",
+            "link": "https://www.ft.com/content/d37c476c-b4cd-4b47-9ed2-d19ad2341ea8",
+            "original": "https://d1e00ek4ebabms.cloudfront.net/production/12281f62-852f-4aec-b449-7fedb217a28e.jpg",
+            "is_product": false
+        },
+        {
+            "position": 42,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO10XKyu6qikgC8cpgDSqFkzYQ67NxGvO-qQ&usqp=CAU",
+            "source": "reuters.com",
+            "title": "Apple shares recover ground after Epic ruling slide | Reuters",
+            "link": "https://www.reuters.com/technology/apple-shares-rise-epic-ruling-led-slide-2021-09-13/",
+            "original": "https://cloudfront-us-east-2.images.arcpublishing.com/reuters/JX32WMP7GZKYXDDATJY2WT52KY.jpg",
+            "is_product": false
+        },
+        {
+            "position": 43,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjg9e0Catb89J5lz6qcpVGmISSa-3ITiJKaA&usqp=CAU",
+            "source": "developer.apple.com",
+            "title": "Apple Developer",
+            "link": "https://developer.apple.com/",
+            "original": "https://developer.apple.com/news/images/og/apple-developer-og.png",
+            "is_product": false
+        },
+        {
+            "position": 44,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSALd-n5Vx4KVfjycRqxCkRK_l44JGt5oZTVA&usqp=CAU",
+            "source": "support.apple.com",
+            "title": "Official Apple Support",
+            "link": "https://support.apple.com/",
+            "original": "https://support.apple.com/content/dam/edam/applecare/images/en_US/psp/apple-gift-card-trimmed_2x.jpg",
+            "is_product": false
+        },
+        {
+            "position": 45,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcQAYht4ujmOXl2fjfTgppEgLEah-LnuTKRQ&usqp=CAU",
+            "source": "nytimes.com",
+            "title": "Apple's Strategy Bends the World - The New York Times",
+            "link": "https://www.nytimes.com/2021/06/29/technology/apple-business-strategy.html",
+            "original": "https://static01.nyt.com/images/2021/06/29/business/29ontech-apple-videostill/29ontech-apple-videostill-videoLarge.png",
+            "is_product": false
+        },
+        {
+            "position": 46,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS611q4r-NWXDKpO5FeAmMA-sawbwJDtX3kTA&usqp=CAU",
+            "source": "istockphoto.com",
+            "title": "891,401 Apple Stock Photos, Pictures & Royalty-Free Images - iStock",
+            "link": "https://www.istockphoto.com/photos/apple",
+            "original": "https://media.istockphoto.com/photos/red-apple-picture-id184276818?k=20&m=184276818&s=612x612&w=0&h=QxOcueqAUVTdiJ7DVoCu-BkNCIuwliPEgtAQhgvBA_g=",
+            "is_product": true
+        },
+        {
+            "position": 47,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi3W0NkfdhDGwfnCXfJJv5alTD0vh2OEhc4w&usqp=CAU",
+            "source": "facebook.com",
+            "title": "Apple - Home | Facebook",
+            "link": "https://www.facebook.com/apple/",
+            "original": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=3531749833584263",
+            "is_product": false
+        },
+        {
+            "position": 48,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO2EFqKtpRKbwb4n8EoDtX-NVgmTnHbBbzkg&usqp=CAU",
+            "source": "usapple.org",
+            "title": "Apple Varieties - USApple",
+            "link": "https://usapple.org/apple-varieties",
+            "original": "https://usapple.org/wp-content/uploads/2019/10/apple-granny-smith.png",
+            "is_product": false
+        },
+        {
+            "position": 49,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHOMl_94cFvN1JX81i_R8Q1o9AmNjkXxElBg&usqp=CAU",
+            "source": "healthline.com",
+            "title": "10 Impressive Health Benefits of Apples",
+            "link": "https://www.healthline.com/nutrition/10-health-benefits-of-apples",
+            "original": "https://post.healthline.com/wp-content/uploads/2020/09/Do_Apples_Affect_Diabetes_and_Blood_Sugar_Levels-732x549-thumbnail-1-732x549.jpg",
+            "is_product": false
+        },
+        {
+            "position": 50,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSmuZHngYlzdcszDDroACXYKiBv42kYPZgZw&usqp=CAU",
+            "source": "applesfromny.com",
+            "title": "Empire - New York Apple Association",
+            "link": "https://www.applesfromny.com/varieties/empire/",
+            "original": "https://www.applesfromny.com/wp-content/uploads/2020/06/EmpireNEW.png",
+            "is_product": false
+        },
+        {
+            "position": 51,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_mjdzesD6r3olKfAV0mOUMVW6SFjlgMNbPQ&usqp=CAU",
+            "source": "theverge.com",
+            "title": "Apple gets hit by its second fine by Italian regulators in a week - The Verge",
+            "link": "https://www.theverge.com/2021/11/26/22803068/apple-google-italy-competiton-regulator-fine-commercial-purposes-user-data-consent-amazon",
+            "original": "https://cdn.vox-cdn.com/thumbor/uSld9IA2vh_zNJtKajulUXFjB8M=/0x0:2040x1360/1200x800/filters:focal(857x517:1183x843)/cdn.vox-cdn.com/uploads/chorus_image/image/70194295/acastro_210429_1777_epicApple_0002.0.jpg",
+            "is_product": false
+        },
+        {
+            "position": 52,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL7YUNUrV5Pi5KMNT5MLtkUNBhrOYQgMQSmw&usqp=CAU",
+            "source": "verizon.com",
+            "title": "New Apple iPhone 13: Features, Price & Colors | Shop Now",
+            "link": "https://www.verizon.com/smartphones/apple-iphone-13/",
+            "original": "https://ss7.vzw.com/is/image/VerizonWireless/apple-iphone-13-pink-09142021",
+            "is_product": false
+        },
+        {
+            "position": 53,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP6z7dD5d854sp5eJHl_7nBRCyFk7NGkpGEw&usqp=CAU",
+            "source": "jobs.apple.com",
+            "title": "United States - Jobs - Careers at Apple",
+            "link": "https://jobs.apple.com/en-us/search?location=united-states-USA",
+            "original": "https://jobs.apple.com/static/images/og/en-us/default.jpg",
+            "is_product": false
+        },
+        {
+            "position": 54,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB_4snE05Dve7C27bLs6k6numQ0uAsAgm-EA&usqp=CAU",
+            "source": "youtube.com",
+            "title": "Apple Support - YouTube",
+            "link": "https://www.youtube.com/c/applesupport",
+            "original": "https://yt3.ggpht.com/ytc/AKedOLSoDONs0ZJI2OUsZBVFV1gwgHvKNl-AlzwcfY9h1w=s900-c-k-c0x00ffffff-no-rj",
+            "is_product": false
+        },
+        {
+            "position": 55,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkIe-Grq7lE1vohoHGp97vqYss5OycoKi7FQ&usqp=CAU",
+            "source": "eff.org",
+            "title": "Speak Out Against Apple's Mass Surveillance Plans | Electronic Frontier Foundation",
+            "link": "https://www.eff.org/deeplinks/2021/08/speak-out-against-apples-mass-surveillance-plans",
+            "original": "https://www.eff.org/files/banner_library/apple-spy-1b.jpg",
+            "is_product": false
+        },
+        {
+            "position": 56,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHER2UPEVqI80OA6GApXr7zo2NKaoFf0RQWA&usqp=CAU",
+            "source": "support.apple.com",
+            "title": "Official Apple Support",
+            "link": "https://support.apple.com/",
+            "original": "https://support.apple.com/content/dam/edam/applecare/images/en_US/repair/applecare-products_2x.png",
+            "is_product": false
+        },
+        {
+            "position": 57,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5EdentbzaIkSXp0-2-MTtAomRISVghN66HQ&usqp=CAU",
+            "source": "en.wikipedia.org",
+            "title": "Jazz (apple) - Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/Jazz_%28apple%29",
+            "original": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Scifresh_%28Apple%29.jpg",
+            "is_product": false
+        },
+        {
+            "position": 58,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp5MVObI5_dZV67A-qmh8codGHGyeLnFJBYw&usqp=CAU",
+            "source": "apple.com",
+            "title": "Buy $25 Apple Gift Cards - Apple",
+            "link": "https://www.apple.com/shop/buy-giftcard/giftcard/25-dollars",
+            "original": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/giftcard-email-electricolor-select-2020?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1595634529000",
+            "is_product": false
+        },
+        {
+            "position": 59,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNy6FZAJsukdCkNRay4KiV0lqOvqCvQmtZxw&usqp=CAU",
+            "source": "backmarket.com",
+            "title": "Certified Renewed by Apple | Back Market",
+            "link": "https://www.backmarket.com/b/apple-store",
+            "original": "https://www.backmarket.com/cdn-cgi/image/format=auto,quality=75,width=640/https://images.ctfassets.net/mmeshd7gafk1/3zPFdwwYIwHLZjrxhTdtuD/8b15546c40d832ad8aeddc9670d1d3e8/_logo_Apple.png",
+            "is_product": false
+        },
+        {
+            "position": 60,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbjWJuT-6ydcyVv6Og9uOBOChq4kF2a6qIKA&usqp=CAU",
+            "source": "techcrunch.com",
+            "title": "Apple search crawler activity could signal a Google competitor, or a bid to make Siri a one-stop shop | TechCrunch",
+            "link": "https://techcrunch.com/2020/10/28/onering/",
+            "original": "https://techcrunch.com/wp-content/uploads/2020/10/apple-fighting-google.jpg",
+            "is_product": false
+        },
+        {
+            "position": 61,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAwnW9E6EVZwSv8dud-uShpq4MFxk2I38zsA&usqp=CAU",
+            "source": "istockphoto.com",
+            "title": "Red Apple With Leaf Stock Photo - Download Image Now - iStock",
+            "link": "https://www.istockphoto.com/photo/red-apple-with-leaf-gm683494078-125451195",
+            "original": "https://media.istockphoto.com/photos/red-apple-with-leaf-picture-id683494078?s=612x612",
+            "is_product": true
+        },
+        {
+            "position": 62,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeylEXuP7OS6f3CEDrYdE518H7IOMtlIsGqQ&usqp=CAU",
+            "source": "apple.com · In stock",
+            "title": "Buy Mac mini - Apple",
+            "link": "https://www.apple.com/shop/buy-mac/mac-mini",
+            "original": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macmini-og-202011?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1604278674000",
+            "is_product": true,
+            "in_stock": true
+        },
+        {
+            "position": 63,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQohaqBKn8Ch3am9dvIqKDyVanJdD10ZDkwLg&usqp=CAU",
+            "source": "cnbc.com",
+            "title": "Apple Event April 2021 live updates: iPad Pros, new iMacs announced",
+            "link": "https://www.cnbc.com/2021/04/20/apple-event-live-updates.html",
+            "original": "https://image.cnbcfm.com/api/v1/image/106870997-1618935993880-Screen_Shot_2021-04-20_at_92603_AM.png?v=1618936026&w=720&h=405",
+            "is_product": false
+        },
+        {
+            "position": 64,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc4vnLqcq3nIONUFFTgkci2rfvlopX754ifw&usqp=CAU",
+            "source": "support.apple.com",
+            "title": "Official Apple Support",
+            "link": "https://support.apple.com/",
+            "original": "https://support.apple.com/content/dam/edam/applecare/images/en_US/psp/featured-section-give-back-trade-in_2x.jpg",
+            "is_product": false
+        },
+        {
+            "position": 65,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSAo0qIY0qAZZcBNvzfR8ZWXDMIF0-n22leQ&usqp=CAU",
+            "source": "theappleplace.net",
+            "title": "The Apple Place - Bakery in East Longmeadow, MA",
+            "link": "https://www.theappleplace.net/",
+            "original": "https://popmenucloud.com/cdn-cgi/image/width=1200,height=1200,fit=scale-down,format=auto,quality=60/kujhvwse/0bea6ba8-3d2f-4f64-a48b-2803cf3744e4.jpg",
+            "is_product": false
+        },
+        {
+            "position": 66,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3ERHJ7rLz96ghOcRT7k6jfuIqTCSqpONk0Q&usqp=CAU",
+            "source": "heb.com · In stock",
+            "title": "Fresh Macintosh Apples - Shop Fruit at H-E-B",
+            "link": "https://www.heb.com/product-detail/fresh-macintosh-apples/377501",
+            "original": "https://images.heb.com/is/image/HEBGrocery/000377501",
+            "is_product": true,
+            "in_stock": true
+        },
+        {
+            "position": 67,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcaZf32adEqZbJZa13m_s9_vKHcm8DFOD6dQ&usqp=CAU",
+            "source": "indianexpress.com",
+            "title": "Apple's 'Spring loaded' event on April 20: Here's what to expect | Technology News,The Indian Express",
+            "link": "https://indianexpress.com/article/technology/tech-news-technology/heres-what-to-expect-at-apples-spring-loaded-event-7278467/",
+            "original": "https://images.indianexpress.com/2021/04/Apple_EVENT_1-1.jpg",
+            "is_product": false
+        },
+        {
+            "position": 68,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9dvPN5AMKR4Xq97D7KYDj2crZa1aKdO4o1A&usqp=CAU",
+            "source": "apple.com",
+            "title": "Certified Refurbished Products - Apple",
+            "link": "https://www.apple.com/shop/refurbished",
+            "original": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/apple-refurb-og-201812?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1545343368049",
+            "is_product": false
+        },
+        {
+            "position": 69,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSulT_2qSfc-8dMvCp0GUZDTtfc2NQIaR0DRw&usqp=CAU",
+            "source": "developer.apple.com",
+            "title": "News - Apple Developer",
+            "link": "https://developer.apple.com/news/",
+            "original": "https://devimages-cdn.apple.com/wwdc-services/articles/images/5726AB2D-3D83-490A-924D-243AC80AEDA9/2048.jpeg",
+            "is_product": false
+        },
+        {
+            "position": 70,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7VoNi09V39WQ3sKXk1OVdRs1o5M3Py8_9rg&usqp=CAU",
+            "source": "wccftech.com",
+            "title": "Apple's March 23 Event - Here Is What to Expect",
+            "link": "https://wccftech.com/apple-march-23-event-what-to-expect/",
+            "original": "https://cdn.wccftech.com/wp-content/uploads/2021/03/Apple-2.jpg",
+            "is_product": false
+        },
+        {
+            "position": 71,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrWzbzhSzhOShMt4HDlECWqzi-M-P6RFeZ5Q&usqp=CAU",
+            "source": "apple.com",
+            "title": "iPhone - Apple",
+            "link": "https://www.apple.com/iphone/",
+            "original": "https://www.apple.com/ac/ac-video-posterframe/4.0/images/ac_video_poster_960x540_2x.jpg",
+            "is_product": false
+        },
+        {
+            "position": 72,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBMPQ1oor63f6sQDiKBnmHEGhYzzYH-VWJKQ&usqp=CAU",
+            "source": "bbc.com",
+            "title": "Can a new apple take over the world? - BBC News",
+            "link": "https://www.bbc.com/news/business-50048782",
+            "original": "https://ichef.bbci.co.uk/news/976/cpsprodpb/9E86/production/_109228504_apples1.jpg",
+            "is_product": false
+        },
+        {
+            "position": 73,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG53aQFQ7GMFUfUXZOEdt92fr27PBPrPKyzQ&usqp=CAU",
+            "source": "nytimes.com",
+            "title": "To Be Tracked or Not? Apple Is Now Giving Us the Choice. - The New York Times",
+            "link": "https://www.nytimes.com/2021/04/26/technology/personaltech/apple-app-tracking-transparency.html",
+            "original": "https://static01.nyt.com/images/2021/04/27/business/26Techfix-illo/26Techfix-illo-articleLarge.gif?quality=75&auto=webp&disable=upscale",
+            "is_product": true
+        },
+        {
+            "position": 74,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlEo6i-nHu1AI__dnEkgVu1cyCC9wkhxELlQ&usqp=CAU",
+            "source": "apple.com",
+            "title": "Delivery and Pickup - Apple",
+            "link": "https://www.apple.com/shop/shipping-pickup",
+            "original": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/delivery-pickup-icons-202103_FMT_WHH?wid=1472&hei=532&fmt=jpeg&qlt=80&.v=1614798921000",
+            "is_product": false
+        },
+        {
+            "position": 75,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMPtJbcXMsj1X_syWLel59LowRFfG76FFppA&usqp=CAU",
+            "source": "ft.com",
+            "title": "Apple develops alternative to Google search | Financial Times",
+            "link": "https://www.ft.com/content/fd311801-e863-41fe-82cf-3d98c4c47e26",
+            "original": "https://d1e00ek4ebabms.cloudfront.net/production/3f85260a-791f-4d30-bc75-0ef93f02810f.jpg",
+            "is_product": false
+        },
+        {
+            "position": 76,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxDXMU7WFDfGokf37S9lb_Eyb8EoxVDvKhzg&usqp=CAU",
+            "source": "abc.net.au",
+            "title": "Climate change-resistant' apple that can keep its colour and crunch could be grown in Australia - ABC News",
+            "link": "https://www.abc.net.au/news/rural/2020-08-01/world-first-cllimate-change-apple-could-be-grown-in-australia/12508178",
+            "original": "https://live-production.wcms.abc-cdn.net.au/b983edcea41673904b177071b138dadb?impolicy=wcms_crop_resize&cropH=1019&cropW=1529&xPos=0&yPos=279&width=862&height=575",
+            "is_product": false
+        },
+        {
+            "position": 77,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkCtQK0L9vJqru_EpMVOAAbY2GecHVzDmbeQ&usqp=CAU",
+            "source": "sweetango.com",
+            "title": "Home - SweeTango",
+            "link": "https://sweetango.com/",
+            "original": "https://sweetango.com/wp-content/themes/sweetango/ft-assets/images/home/hero/apples2.png",
+            "is_product": false
+        },
+        {
+            "position": 78,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ6ssrhToaGWD05ihLmolGM5fqK4326XLi9w&usqp=CAU",
+            "source": "hsph.harvard.edu",
+            "title": "Apples | The Nutrition Source | Harvard T.H. Chan School of Public Health",
+            "link": "https://www.hsph.harvard.edu/nutritionsource/food-features/apples/",
+            "original": "https://cdn1.sph.harvard.edu/wp-content/uploads/sites/30/2018/10/apple-2711629_1920-1200x900.jpg",
+            "is_product": false
+        },
+        {
+            "position": 79,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkU1OcNpt9z9aAd1SlP_zTdPJbY4V6xh-NKA&usqp=CAU",
+            "source": "tradingview.com",
+            "title": "AAPL Stock Price — Apple Chart — TradingView",
+            "link": "https://www.tradingview.com/symbols/NASDAQ-AAPL/",
+            "original": "https://s3-symbol-logo.tradingview.com/apple--600.png",
+            "is_product": false
+        },
+        {
+            "position": 80,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9mbt6XtbRNcIVVZQYqfnB_qN_ZomUMjIQNA&usqp=CAU",
+            "source": "wired.com",
+            "title": "You Can Jailbreak Your iPhone Again (But Maybe You Shouldn't) | WIRED",
+            "link": "https://www.wired.com/story/ios-jailbreak-new/",
+            "original": "https://media.wired.com/photos/5d5af2b0cdb91100085b250e/125:94/w_2394,h_1800,c_limit/security_apple_1138155587.jpg",
+            "is_product": false
+        },
+        {
+            "position": 81,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmshECWlbjKWhm-BnBVuX8Tg1BDL_qvmdgjA&usqp=CAU",
+            "source": "healthline.com",
+            "title": "7 Potential Side Effects of Apple Cider Vinegar",
+            "link": "https://www.healthline.com/nutrition/apple-cider-vinegar-side-effects",
+            "original": "https://post.healthline.com/wp-content/uploads/2020/10/apple-basket-apples-732x549-thumbnail-732x549.jpg",
+            "is_product": false
+        },
+        {
+            "position": 82,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7gmNartvx5rYVSlKg0FlEA64kTp0rSMBUBw&usqp=CAU",
+            "source": "nbcnews.com",
+            "title": "Apple v. Facebook: After years of tension, a legal battle looms",
+            "link": "https://www.nbcnews.com/tech/tech-news/apple-v-facebook-after-years-tension-legal-battle-looms-n1256008",
+            "original": "https://media-cldnry.s-nbcnews.com/image/upload/newscms/2021_40/2841006/190430-apple-store-ew-539p.jpg",
+            "is_product": false
+        },
+        {
+            "position": 83,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl88DqGfXM7DjvH62-vUX4Er5zYHXKp5K5mA&usqp=CAU",
+            "source": "9to5mac.com",
+            "title": "Report: Apple Car battery talks with Chinese suppliers on pause, shift to Panasonic - 9to5Mac",
+            "link": "https://9to5mac.com/2021/10/22/apple-car-battery-talks-on-pause/",
+            "original": "https://9to5mac.com/wp-content/uploads/sites/6/2021/02/Apple-Car-specs-suggested.jpg?quality=82&strip=all",
+            "is_product": false
+        },
+        {
+            "position": 84,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6dsAL2CK7qg6eD9YAa40wUcSGFnl37Kyq9g&usqp=CAU",
+            "source": "thespruce.com",
+            "title": "Can You Grow Apples From Seeds?",
+            "link": "https://www.thespruce.com/can-you-grow-apples-from-seeds-3269511",
+            "original": "https://www.thespruce.com/thmb/vJ0O8IVK0Hhhth_UWRJ5WZ_-VTo=/6240x4160/filters:no_upscale():max_bytes(150000):strip_icc()/www.thespruce.com-can-you-grow-apples-from-seeds-3269511-2-af84fa5368d64478955ccbdff64ad938.jpg",
+            "is_product": false
+        },
+        {
+            "position": 85,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqrDddrwoZbi9V2RcdRI1JZxWgJc_chbvoYA&usqp=CAU",
+            "source": "fool.com",
+            "title": "Apple's Services Business Could Be Worth $650 Billion by Next Year | The Motley Fool",
+            "link": "https://www.fool.com/investing/2020/01/19/apple-services-business-could-be-worth-650-billion.aspx",
+            "original": "https://g.foolcdn.com/editorial/images/553601/apples-keynote-event_tim_cook-03252019_bigjpglarge_2x.jpg",
+            "is_product": false
+        },
+        {
+            "position": 86,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBJdljisCbs-ZpmIhLQmtY4dAH7mHJ_Supiw&usqp=CAU",
+            "source": "theverge.com",
+            "title": "Apple VP acknowledges concerns about new scanning feature in internal memo - The Verge",
+            "link": "https://www.theverge.com/2021/8/6/22612934/apple-vp-memo-concerns-privacy-new-scanning-photos-images-ios",
+            "original": "https://cdn.vox-cdn.com/thumbor/oHEps7sqb4XM-rWN_UEHKoqtkzM=/0x0:2040x1360/1200x800/filters:focal(857x517:1183x843)/cdn.vox-cdn.com/uploads/chorus_image/image/69688996/acstro_190902_apple_event_0004.0.0.jpg",
+            "is_product": false
+        },
+        {
+            "position": 87,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp9U17B-mVLipHmhJqgczAqp8JY1Qp9XZlPg&usqp=CAU",
+            "source": "fortune.com",
+            "title": "Apple Inc. (AAPL) Company Profile, News, Rankings | Fortune | Fortune",
+            "link": "https://fortune.com/company/apple/",
+            "original": "https://content.fortune.com/wp-content/uploads/2020/05/F500-2020-004-Apple.jpg",
+            "is_product": false
+        },
+        {
+            "position": 88,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr6-qwWh1HvCT06XSmENK_ApoaPOGLOj4qdA&usqp=CAU",
+            "source": "apple.fandom.com",
+            "title": "Apple logo | Apple Wiki | Fandom",
+            "link": "https://apple.fandom.com/wiki/Apple_logo",
+            "original": "https://static.wikia.nocookie.net/ipod/images/2/2e/Apple_logo_history_1976-2017.jpg/revision/latest?cb=20210709211613",
+            "is_product": false
+        },
+        {
+            "position": 89,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvw4cEWAM8-sroz8arDp7jZ4rs_FPuceh5TA&usqp=CAU",
+            "source": "cnbc.com",
+            "title": "Apple sues NSO Group, company known for hacking iPhones on behalf of governments",
+            "link": "https://www.cnbc.com/2021/11/23/apple-sues-nso-group-company-known-for-hacking-iphones-on-behalf-of-governments.html",
+            "original": "https://image.cnbcfm.com/api/v1/image/106587904-15928703582020-06-22t173405z_90636234_rc2heh9e4av9_rtrmadp_0_apple-developers.jpeg?v=1592870436",
+            "is_product": false
+        },
+        {
+            "position": 90,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw5kSBKodISeb3d9HlZBRetPmohy-FbMUNIw&usqp=CAU",
+            "source": "scientificamerican.com",
+            "title": "Why do apple slices turn brown after being cut? - Scientific American",
+            "link": "https://www.scientificamerican.com/article/experts-why-cut-apples-turn-brown/",
+            "original": "https://static.scientificamerican.com/sciam/cache/file/409E7C55-DDA5-442E-BEF368457F16CAA7.jpg",
+            "is_product": false
+        },
+        {
+            "position": 91,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVMdH_-vOhR23SpL3N-QtlB4Z4lY7Ahu16hQ&usqp=CAU",
+            "source": "indiamart.com",
+            "title": "Apple at Rs 20/kilogram | Apple | ID: 19835557748",
+            "link": "https://www.indiamart.com/proddetail/apple-19835557748.html",
+            "original": "https://5.imimg.com/data5/AK/RA/MY-68428614/apple-500x500.jpg",
+            "is_product": false
+        },
+        {
+            "position": 92,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeRR6C05lxasJhgoXqBW-qXVCBJ7NBIxHrHQ&usqp=CAU",
+            "source": "investopedia.com",
+            "title": "What Moves Apple's Stock Price?",
+            "link": "https://www.investopedia.com/stock-analysis/061115/what-moves-apples-stock-price-aapl.aspx",
+            "original": "https://www.investopedia.com/thmb/8wYpfft5KCSu-14JdpxPq50SrPw=/2048x0/filters:no_upscale():max_bytes(150000):strip_icc()/16196569467_9a2c8f845d_k-df2c0598f59740269eb8594cd78a16c7.jpg",
+            "is_product": false
+        },
+        {
+            "position": 93,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCAFfW3HSx_SpWicS0VxXnLZKqNga1h2UAOA&usqp=CAU",
+            "source": "cnn.com",
+            "title": "iOS 14.5: Apple's major privacy update explained - CNN",
+            "link": "https://www.cnn.com/2021/04/26/tech/apple-tracking-transparency-feature/index.html",
+            "original": "https://cdn.cnn.com/cnnnext/dam/assets/210420130954-04-apple-event-0420-screenshot-exlarge-169.jpg",
+            "is_product": true
+        },
+        {
+            "position": 94,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV7I3Xi3K7gEjEIe7pA2zetEpZtptatMKD9Q&usqp=CAU",
+            "source": "arstechnica.com",
+            "title": "Apple pays $288,000 to white-hat hackers who had run of company's network | Ars Technica",
+            "link": "https://arstechnica.com/information-technology/2020/10/white-hat-hackers-who-had-control-of-internal-apple-network-get-288000-reward/",
+            "original": "https://cdn.arstechnica.net/wp-content/uploads/2020/10/apple-hacker-800x534.jpg",
+            "is_product": false
+        },
+        {
+            "position": 95,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMTrTdJKm1dpJQZn6wTw-VdvOE72jQnmcTmg&usqp=CAU",
+            "source": "simplyrecipes.com",
+            "title": "Baked Apples Recipe",
+            "link": "https://www.simplyrecipes.com/recipes/baked_apples/",
+            "original": "https://www.simplyrecipes.com/thmb/nVRvdMvNsjhuEhnwfO91bjm6rxc=/1200x800/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2014__11__baked-apples-method-1-db042c69f4854eef868dc81adda36c26.jpg",
+            "is_product": true
+        },
+        {
+            "position": 96,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWMQ61FR9S0CLmgF4W2tLdn9qE3RppZfl9Rw&usqp=CAU",
+            "source": "bestbuy.com",
+            "title": "Apple Shopping Event – Best Buy",
+            "link": "https://www.bestbuy.com/site/apple/apple-shopping-event/pcmcat748301171883.c?id=pcmcat748301171883",
+            "original": "https://pisces.bbystatic.com/image2/BestBuy_US/dam/mmt-407757-aasp-apple-family-pol-der-91cab4f0-1769-4ef6-92e4-9defb3b5586a.jpg;maxHeight=305;maxWidth=978",
+            "is_product": false
+        },
+        {
+            "position": 97,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP3u6aFyM2FXrUpyds-uNIg2z645CW89N2Eg&usqp=CAU",
+            "source": "reuters.com",
+            "title": "Apple could block apps that don't comply with new privacy feature | Reuters",
+            "link": "https://www.reuters.com/article/apple-advertising-idUSKBN28I21I",
+            "original": "https://s3.reutersmedia.net/resources/r/?m=02&d=20201208&t=2&i=1543832208&w=640&fh=&fw=&ll=&pl=&sq=&r=LYNXMPEGB7166",
+            "is_product": false
+        },
+        {
+            "position": 98,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFZcxiU58X31HDxBZVR6Kr7jhrJRDQNQusKQ&usqp=CAU",
+            "source": "theguardian.com",
+            "title": "Apple: what is Fortnite feud about and what does App Store ruling mean? | Apple | The Guardian",
+            "link": "https://www.theguardian.com/technology/2021/sep/10/apple-what-is-fortnite-feud-about-and-what-does-app-store-ruling-mean",
+            "original": "https://i.guim.co.uk/img/media/b0b9091235677b9fc7093129adf802160eafab18/0_39_4673_2804/master/4673.jpg?width=300&quality=85&auto=format&fit=max&s=3dc99aa6505982982e5225a64064a492",
+            "is_product": false
+        },
+        {
+            "position": 99,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe0eHKLbbtu5XmXDqfECla6ZdZAgs17kR72w&usqp=CAU",
+            "source": "heb.com · In stock",
+            "title": "Fresh Golden Delicious Apples - Shop Fruit at H-E-B",
+            "link": "https://www.heb.com/product-detail/fresh-golden-delicious-apples/377503",
+            "original": "https://images.heb.com/is/image/HEBGrocery/000377503",
+            "is_product": true,
+            "in_stock": true
+        },
+        {
+            "position": 100,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrdA6Wew1fUR0s9q_2h6WXsND3uHb4cRG60g&usqp=CAU",
+            "source": "macrumors.com",
+            "title": "Upcoming Apple Products Guide: Everything We Expect to See in 2021 and Beyond - MacRumors",
+            "link": "https://www.macrumors.com/guide/upcoming-apple-products/",
+            "original": "https://images.macrumors.com/t/tA_RAlO-sKIrvULzR2aaVJ5Tyd4=/1920x/article-new/2019/02/MR-Future-Products-2020-2.png",
+            "is_product": false
+        }
+    ]
+}
