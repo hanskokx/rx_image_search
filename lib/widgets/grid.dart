@@ -1,3 +1,4 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
@@ -17,28 +18,23 @@ class StaggeredImageGridView extends StatelessWidget {
         if (state is HasImages) {
           return Column(
             children: [
-              Text(state.query),
               StaggeredGridView.countBuilder(
                 shrinkWrap: true,
                 crossAxisCount: 3,
-                itemCount: 7,
-                itemBuilder: (BuildContext context, int index) => Container(
-                    color: Colors.green,
-                    child: Center(
-                      child: CircleAvatar(
-                        backgroundColor: Colors.white,
-                        child: Text(state.data.toString()),
-                      ),
-                    )),
+                itemCount: state.data.length,
+                itemBuilder: (BuildContext context, int index) =>
+                    CachedNetworkImage(
+                  imageUrl: state.data[index]!.thumbnail,
+                ),
                 staggeredTileBuilder: (int index) =>
                     StaggeredTile.extent(1, index.isEven ? 200 : 100),
-                mainAxisSpacing: 4.0,
-                crossAxisSpacing: 4.0,
+                mainAxisSpacing: 20.0,
+                crossAxisSpacing: 20.0,
               ),
             ],
           );
         }
-
+        BlocProvider.of<ImageBloc>(context).add(SearchForImages(query: "asdf"));
         return const Text('Search for something, will ya?');
       },
     );
