@@ -1,12 +1,22 @@
+import 'package:configurable/dotenv_configuration_provider.dart';
+import 'package:configurable/system_config.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:rx_image_search/bloc/image_bloc.dart';
 import 'package:rx_image_search/widgets/grid.dart';
 import 'package:rx_image_search/widgets/search.dart';
 
-import 'bloc/image_bloc.dart';
-
 void main() {
-  runApp(const MyApp());
+  WidgetsFlutterBinding.ensureInitialized();
+  DotenvConfigurationProvider dotenvProvider = DotenvConfigurationProvider();
+  SystemConfig.setProvider(dotenvProvider);
+
+  runApp(
+    BlocProvider(
+      create: (context) => ImageBloc(),
+      child: const MyApp(),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
@@ -14,15 +24,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return BlocProvider(
-      create: (context) => ImageBloc(),
-      child: MaterialApp(
-        title: 'Flutter Demo',
-        theme: ThemeData(
-          primarySwatch: Colors.blue,
-        ),
-        home: const MyHomePage(title: 'Flutter Demo Home Page'),
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
       ),
+      home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }

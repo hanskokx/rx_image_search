@@ -27,7 +27,7 @@ class StaggeredImageGridView extends StatelessWidget {
                     child: Center(
                       child: CircleAvatar(
                         backgroundColor: Colors.white,
-                        child: Text(state.data[index] ?? 'Oops'),
+                        child: Text(state.data.toString()),
                       ),
                     )),
                 staggeredTileBuilder: (int index) =>

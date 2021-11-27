@@ -2,7 +2,7 @@ part of 'image_bloc.dart';
 
 class HasImages extends ImageState {
   // final Stream<Map<String, String>> data;
-  final Map<String, String> data;
+  final dynamic data;
   final String query;
   HasImages({
     required this.data,
