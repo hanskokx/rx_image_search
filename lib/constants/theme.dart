@@ -26,7 +26,7 @@ ThemeData theme = ThemeData(
     onError: Color(0xfffffbff),
     onPrimary: Color(0xfffffbff),
     onSecondary: Color(0xfffffbff),
-    onSurface: Color(0xfffffbff),
+    onSurface: Color(0x25FFFBFF),
     primary: Color(0xff59befc),
     primaryVariant: Color(0xff6163fd),
     secondary: Color(0xff1c2031),

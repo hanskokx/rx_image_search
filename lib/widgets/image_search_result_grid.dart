@@ -17,34 +17,46 @@ class _ImageSearchResultGridState extends State<ImageSearchResultGrid>
   int itemCount = 0;
   @override
   Widget build(BuildContext context) {
-    return BlocBuilder<ImageBloc, ImageState>(
-      builder: (context, state) {
-        if (state is Searching) {
-          return const CircularProgressIndicator();
-        }
+    return Expanded(
+      child: BlocBuilder<ImageBloc, ImageState>(
+        builder: (context, state) {
+          if (state is Searching) {
+            return const CircularProgressIndicator();
+          }
 
-        if (state is HasImages) {
-          itemCount = state.data.length;
-          return Expanded(
-            child: StaggeredGridView.countBuilder(
-              controller: _controller,
-              crossAxisCount: 3,
-              shrinkWrap: true,
-              itemCount: itemCount - 1,
-              itemBuilder: (BuildContext context, int index) =>
-                  ImageSearchResultThumbnail(
-                imageResult: state.data[index]!,
+          if (state is HasImages) {
+            itemCount = state.data.length;
+            return Expanded(
+              child: StaggeredGridView.countBuilder(
+                controller: _controller,
+                crossAxisCount: 3,
+                shrinkWrap: true,
+                itemCount: itemCount - 1,
+                itemBuilder: (BuildContext context, int index) =>
+                    ImageSearchResultThumbnail(
+                  imageResult: state.data[index]!,
+                ),
+                staggeredTileBuilder: (int index) =>
+                    const StaggeredTile.extent(1, 100),
+                mainAxisSpacing: 8.0,
+                crossAxisSpacing: 8.0,
               ),
-              staggeredTileBuilder: (int index) =>
-                  const StaggeredTile.extent(1, 100),
-              mainAxisSpacing: 8.0,
-              crossAxisSpacing: 8.0,
-            ),
-          );
-        }
+            );
+          }
 
-        return const Center(child: Text('Search for something, will ya?'));
-      },
+          return Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisSize: MainAxisSize.max,
+            children: [
+              Icon(
+                Icons.image_search_outlined,
+                color: Theme.of(context).colorScheme.onSurface,
+                size: 72,
+              ),
+            ],
+          );
+        },
+      ),
     );
   }
 
