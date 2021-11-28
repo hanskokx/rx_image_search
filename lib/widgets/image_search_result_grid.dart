@@ -4,9 +4,17 @@ import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:rx_image_search/bloc/image_bloc.dart';
 import 'package:rx_image_search/widgets/image_search_result_thumbnail.dart';
 
-class ImageSearchResultGrid extends StatelessWidget {
+class ImageSearchResultGrid extends StatefulWidget {
   const ImageSearchResultGrid({Key? key}) : super(key: key);
 
+  @override
+  State<ImageSearchResultGrid> createState() => _ImageSearchResultGridState();
+}
+
+class _ImageSearchResultGridState extends State<ImageSearchResultGrid>
+    with TickerProviderStateMixin {
+  final ScrollController _controller = ScrollController();
+  int itemCount = 0;
   @override
   Widget build(BuildContext context) {
     return BlocBuilder<ImageBloc, ImageState>(
@@ -16,29 +24,42 @@ class ImageSearchResultGrid extends StatelessWidget {
         }
 
         if (state is HasImages) {
+          itemCount = state.data.length;
           return Expanded(
-            child: Padding(
-              padding: const EdgeInsets.all(20.0),
-              child: StaggeredGridView.countBuilder(
-                crossAxisCount: 3,
-                shrinkWrap: true,
-                itemCount: state.data.length - 1,
-                itemBuilder: (BuildContext context, int index) =>
-                    ImageSearchResultThumbnail(
-                  imageResult: state.data[index]!,
-                ),
-                staggeredTileBuilder: (int index) =>
-                    const StaggeredTile.extent(1, 100),
-                mainAxisSpacing: 20.0,
-                crossAxisSpacing: 20.0,
+            child: StaggeredGridView.countBuilder(
+              controller: _controller,
+              crossAxisCount: 3,
+              shrinkWrap: true,
+              itemCount: itemCount - 1,
+              itemBuilder: (BuildContext context, int index) =>
+                  ImageSearchResultThumbnail(
+                imageResult: state.data[index]!,
               ),
+              staggeredTileBuilder: (int index) =>
+                  const StaggeredTile.extent(1, 100),
+              mainAxisSpacing: 8.0,
+              crossAxisSpacing: 8.0,
             ),
           );
         }
-        BlocProvider.of<ImageBloc>(context).add(SearchForImages(query: "asdf"));
 
         return const Center(child: Text('Search for something, will ya?'));
       },
     );
+  }
+
+  @override
+  void initState() {
+    super.initState();
+    _controller.addListener(_scrollListener);
+  }
+
+  _scrollListener() {
+    int scrollPosition = _controller.offset.floor();
+    int height = ((itemCount * 100) / 3 - 100).floor();
+
+    if (scrollPosition >= height - 100) {
+      BlocProvider.of<ImageBloc>(context).add(GetNextPage());
+    }
   }
 }

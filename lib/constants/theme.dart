@@ -6,7 +6,6 @@ ThemeData theme = ThemeData(
   colorScheme: ColorScheme.fromSwatch(
     primarySwatch: swatch,
   ),
-  canvasColor: swatch[50],
 );
 
 MaterialColor createMaterialColor(String hex) {

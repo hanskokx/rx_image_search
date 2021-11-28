@@ -1,5 +1,7 @@
 part of 'image_bloc.dart';
 
+class GetNextPage extends ImageEvent {}
+
 @immutable
 abstract class ImageEvent {}
 

@@ -10,9 +10,9 @@ environment:
 
 dependencies:
   cached_network_image: ^3.1.0+1
-  configurable: ^1.0.8
   cupertino_icons: ^1.0.2
   dio: ^4.0.4
+  dotenv: ^3.0.0
   flutter:
     sdk: flutter
   flutter_bloc: ^8.0.0
