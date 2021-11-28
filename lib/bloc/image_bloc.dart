@@ -9,7 +9,7 @@ import 'package:rx_image_search/classes/image_result.dart';
 part 'image_event.dart';
 part 'image_state.dart';
 
-Future<List<ImageResult?>> _searchForImages(String query, int page) async {
+Future<List<ImageResult?>> _searchForImages(String query, int? page) async {
   late Response response;
 
   // BaseOptions options = BaseOptions(
@@ -20,7 +20,7 @@ Future<List<ImageResult?>> _searchForImages(String query, int page) async {
   //   "q": query,
   //   "tbm": "isch", // Google Image Search API
   //   "num": 10, // The number of images to return
-  //   "ijn": page, // The page number of the search results
+  //   "ijn": page ?? 0, // The page number of the search results
   //   "api_key": SystemConfig.getOrNull("SERPAPI_API_KEY")
   // };
 
@@ -63,7 +63,8 @@ class ImageBloc extends Bloc<ImageEvent, ImageState> {
       if (event is SearchForImages) {
         emit(Searching(query: event.query));
         // Stream<Map<String, String>> images = _searchForImages();
-        List<ImageResult?> images = await _searchForImages(event.query);
+        List<ImageResult?> images =
+            await _searchForImages(event.query, event.page);
         emit(HasImages(query: event.query, data: images));
       }
     });
