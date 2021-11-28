@@ -9,7 +9,7 @@ import 'package:rx_image_search/classes/image_result.dart';
 part 'image_event.dart';
 part 'image_state.dart';
 
-Future<List<ImageResult?>> _searchForImages(String query) async {
+Future<List<ImageResult?>> _searchForImages(String query, int page) async {
   late Response response;
 
   // BaseOptions options = BaseOptions(
@@ -18,8 +18,9 @@ Future<List<ImageResult?>> _searchForImages(String query) async {
 
   // Map<String, dynamic> data = {
   //   "q": query,
-  //   "tbm": "isch",
-  //   "ijn": 0,
+  //   "tbm": "isch", // Google Image Search API
+  //   "num": 10, // The number of images to return
+  //   "ijn": page, // The page number of the search results
   //   "api_key": SystemConfig.getOrNull("SERPAPI_API_KEY")
   // };
 
