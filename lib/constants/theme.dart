@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-MaterialColor swatch = createMaterialColor('#336699');
+MaterialColor swatch = createMaterialColor('#3c4255');
 
 ThemeData theme = ThemeData(
   colorScheme: ColorScheme.fromSwatch(

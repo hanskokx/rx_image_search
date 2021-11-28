@@ -17,18 +17,21 @@ class ImageSearchResultGrid extends StatelessWidget {
 
         if (state is HasImages) {
           return Expanded(
-            child: StaggeredGridView.countBuilder(
-              crossAxisCount: 3,
-              shrinkWrap: true,
-              itemCount: state.data.length - 1,
-              itemBuilder: (BuildContext context, int index) =>
-                  ImageSearchResultThumbnail(
-                imageResult: state.data[index],
+            child: Padding(
+              padding: const EdgeInsets.all(20.0),
+              child: StaggeredGridView.countBuilder(
+                crossAxisCount: 3,
+                shrinkWrap: true,
+                itemCount: state.data.length - 1,
+                itemBuilder: (BuildContext context, int index) =>
+                    ImageSearchResultThumbnail(
+                  imageResult: state.data[index]!,
+                ),
+                staggeredTileBuilder: (int index) =>
+                    const StaggeredTile.extent(1, 100),
+                mainAxisSpacing: 20.0,
+                crossAxisSpacing: 20.0,
               ),
-              staggeredTileBuilder: (int index) =>
-                  StaggeredTile.extent(1, index.isEven ? 200 : 100),
-              mainAxisSpacing: 20.0,
-              crossAxisSpacing: 20.0,
             ),
           );
         }
