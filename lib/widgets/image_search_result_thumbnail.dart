@@ -104,7 +104,11 @@ class ImageSearchResultThumbnail extends StatelessWidget {
               String url,
               DownloadProgress progress,
             ) {
-              return CircularProgressIndicator(value: progress.progress);
+              return SizedBox(
+                height: 20,
+                width: 20,
+                child: CircularProgressIndicator(value: progress.progress),
+              );
             },
           ),
         ),

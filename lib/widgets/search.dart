@@ -23,7 +23,7 @@ class _SearchState extends State<Search> {
         },
         decoration: const InputDecoration(
           prefixIcon: Icon(Icons.search),
-          hintText: 'Search for an image',
+          hintText: 'Search for an image...',
         ),
       ),
     );

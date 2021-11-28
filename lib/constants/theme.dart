@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 InputDecorationTheme inputDecoration = const InputDecorationTheme(
   filled: true,
@@ -9,6 +10,13 @@ InputDecorationTheme inputDecoration = const InputDecorationTheme(
       style: BorderStyle.none,
     ),
   ),
+  focusedBorder: OutlineInputBorder(
+    borderSide: BorderSide(
+      width: 1,
+      style: BorderStyle.solid,
+      color: Color(0xff59befc),
+    ),
+  ),
   prefixStyle: TextStyle(
     color: Colors.white,
   ),
@@ -17,6 +25,7 @@ InputDecorationTheme inputDecoration = const InputDecorationTheme(
 MaterialColor swatch = createMaterialColor('#414def');
 
 ThemeData theme = ThemeData(
+  fontFamily: GoogleFonts.lexendDeca().fontFamily,
   inputDecorationTheme: inputDecoration,
   colorScheme: const ColorScheme(
     background: Color(0xff010317),
