@@ -3,6 +3,7 @@ import 'package:configurable/system_config.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:rx_image_search/bloc/image_bloc.dart';
+import 'package:rx_image_search/constants/theme.dart';
 import 'package:rx_image_search/widgets/image_search_result_grid.dart';
 import 'package:rx_image_search/widgets/search.dart';
 
@@ -25,11 +26,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      title: 'Image searcher',
+      theme: theme,
+      home: const MyHomePage(title: 'Search for an image'),
     );
   }
 }

@@ -12,11 +12,8 @@ class ImageSearchResultThumbnail extends StatelessWidget {
     String thumbnailUrl = imageResult?.thumbnail ?? '';
     return Card(
       elevation: 2,
-      child: SizedBox(
-        height: 200,
-        child: CachedNetworkImage(
-          imageUrl: thumbnailUrl,
-        ),
+      child: CachedNetworkImage(
+        imageUrl: thumbnailUrl,
       ),
     );
   }
