@@ -1,12 +1,7 @@
-import 'dart:typed_data';
-
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
-import 'package:image_gallery_saver/image_gallery_saver.dart';
-import 'package:path/path.dart';
-import 'package:permission_handler/permission_handler.dart';
 import 'package:rx_image_search/classes/image_result.dart';
+import 'package:rx_image_search/widgets/download_image_button.dart';
 
 Future<void> _enlargeImage(
   BuildContext context,
@@ -44,43 +39,11 @@ Future<void> _enlargeImage(
           ],
         ),
         actions: <Widget>[
-          TextButton(
-            child: const Text('Save to gallery'),
-            onPressed: () async {
-              await _requestPermission(context);
-              await _save(imageResult);
-            },
-          ),
+          DownloadImageButton(imageResult: imageResult),
         ],
       );
     },
   );
-}
-
-_requestPermission(BuildContext context) async {
-  Map<Permission, PermissionStatus> statuses = await [
-    Permission.storage,
-  ].request();
-
-  final info = statuses[Permission.storage].toString();
-  ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-    content: Text(info),
-  ));
-}
-
-_save(ImageResult imageResult) async {
-  String filename = basename(imageResult.link);
-  Response response = await Dio().get(
-    imageResult.original,
-    options: Options(responseType: ResponseType.bytes),
-  );
-
-  final result = await ImageGallerySaver.saveImage(
-    Uint8List.fromList(response.data),
-    name: filename,
-  );
-  // TODO: Add notification that image was saved
-  print(result);
 }
 
 class ImageSearchResultThumbnail extends StatelessWidget {
