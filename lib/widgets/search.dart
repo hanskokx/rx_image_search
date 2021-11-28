@@ -14,14 +14,17 @@ class _SearchState extends State<Search> {
 
   @override
   Widget build(BuildContext context) {
-    return TextField(
-      controller: _searchInput,
-      onSubmitted: (value) => {
-        BlocProvider.of<ImageBloc>(context).add(SearchForImages(query: value))
-      },
-      decoration: const InputDecoration(
-        prefixIcon: Icon(Icons.search),
-        hintText: 'Search for an image',
+    return Container(
+      padding: const EdgeInsets.all(20.0),
+      child: TextField(
+        controller: _searchInput,
+        onSubmitted: (value) => {
+          BlocProvider.of<ImageBloc>(context).add(SearchForImages(query: value))
+        },
+        decoration: const InputDecoration(
+          prefixIcon: Icon(Icons.search),
+          hintText: 'Search for an image',
+        ),
       ),
     );
   }

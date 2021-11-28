@@ -79,6 +79,7 @@ _save(ImageResult imageResult) async {
     Uint8List.fromList(response.data),
     name: filename,
   );
+  // TODO: Add notification that image was saved
   print(result);
 }
 
