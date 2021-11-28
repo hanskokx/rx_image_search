@@ -9,13 +9,13 @@ import 'package:rx_image_search/classes/image_result.dart';
 part 'image_event.dart';
 part 'image_state.dart';
 
-// Dio dio = Dio(options);
-
-// BaseOptions options = BaseOptions(
-//   baseUrl: 'https://serpapi.com/',
-// );
-
 Future<List<ImageResult?>> _searchForImages(String query) async {
+  late Response response;
+
+  // BaseOptions options = BaseOptions(
+  //   baseUrl: 'https://serpapi.com/',
+  // );
+
   // Map<String, dynamic> data = {
   //   "q": query,
   //   "tbm": "isch",
@@ -23,19 +23,22 @@ Future<List<ImageResult?>> _searchForImages(String query) async {
   //   "api_key": SystemConfig.getOrNull("SERPAPI_API_KEY")
   // };
 
-  // Response response = await dio.request(
+  // Dio client = Dio(options);
+
+  // response = await client.request(
   //   '/search',
   //   queryParameters: data,
   //   options: Options(method: 'GET'),
   // );
 
+  // ! For testing; so I don't exhaust my limited API calls
   BaseOptions options = BaseOptions(
     baseUrl: 'https://tempapi.proj.me/api',
   );
   Dio client = Dio(options);
 
-  Response response = await client.request(
-    "/Z8oF121Jb",
+  response = await client.request(
+    "/ntUSavnRD",
   );
 
   List<Map<String, dynamic>> res = [];

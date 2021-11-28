@@ -1,11 +1,11 @@
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:rx_image_search/bloc/image_bloc.dart';
+import 'package:rx_image_search/widgets/image_search_result_thumbnail.dart';
 
-class StaggeredImageGridView extends StatelessWidget {
-  const StaggeredImageGridView({Key? key}) : super(key: key);
+class ImageSearchResultGrid extends StatelessWidget {
+  const ImageSearchResultGrid({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -16,26 +16,27 @@ class StaggeredImageGridView extends StatelessWidget {
         }
 
         if (state is HasImages) {
-          return Column(
-            children: [
-              StaggeredGridView.countBuilder(
-                shrinkWrap: true,
+          return Expanded(
+            child: SingleChildScrollView(
+              child: StaggeredGridView.countBuilder(
                 crossAxisCount: 3,
-                itemCount: state.data.length,
+                shrinkWrap: true,
+                itemCount: state.data.length - 1,
                 itemBuilder: (BuildContext context, int index) =>
-                    CachedNetworkImage(
-                  imageUrl: state.data[index]!.thumbnail,
+                    ImageSearchResultThumbnail(
+                  imageResult: state.data[index],
                 ),
                 staggeredTileBuilder: (int index) =>
                     StaggeredTile.extent(1, index.isEven ? 200 : 100),
                 mainAxisSpacing: 20.0,
                 crossAxisSpacing: 20.0,
               ),
-            ],
+            ),
           );
         }
         BlocProvider.of<ImageBloc>(context).add(SearchForImages(query: "asdf"));
-        return const Text('Search for something, will ya?');
+
+        return const Center(child: Text('Search for something, will ya?'));
       },
     );
   }

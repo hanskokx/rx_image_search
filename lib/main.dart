@@ -3,7 +3,7 @@ import 'package:configurable/system_config.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:rx_image_search/bloc/image_bloc.dart';
-import 'package:rx_image_search/widgets/grid.dart';
+import 'package:rx_image_search/widgets/image_search_result_grid.dart';
 import 'package:rx_image_search/widgets/search.dart';
 
 void main() {
@@ -53,7 +53,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Column(
         children: const [
           Search(),
-          StaggeredImageGridView(),
+          ImageSearchResultGrid(),
         ],
       ),
     );
