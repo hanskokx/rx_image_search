@@ -20,12 +20,14 @@ class DownloadImageButton extends StatefulWidget {
 }
 
 class _DownloadImageButtonState extends State<DownloadImageButton> {
-  SMITrigger? _bump;
+  SMITrigger? _pressed;
+  SMIBool? _hover;
+  SMINumber? _loading;
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () => _hitBump(context, widget.imageResult),
+      onTap: () => _downloadImage(context, widget.imageResult),
       child: SizedBox(
         height: 80,
         width: 80,
@@ -33,23 +35,27 @@ class _DownloadImageButtonState extends State<DownloadImageButton> {
           'assets/animations/download_icon.riv',
           fit: BoxFit.cover,
           onInit: _onRiveInit,
-          stateMachines: const ['State Machine 1'],
+          stateMachines: const ['State'],
         ),
       ),
     );
   }
 
-  _hitBump(BuildContext context, ImageResult imageResult) async {
+  _downloadImage(BuildContext context, ImageResult imageResult) async {
+    _hover?.change(true);
     await _requestPermission(context);
-    _bump?.fire();
+    _pressed?.fire();
     await _save(imageResult);
+    _hover?.change(false);
   }
 
   void _onRiveInit(Artboard artboard) {
-    final controller =
-        StateMachineController.fromArtboard(artboard, 'State Machine 1');
+    final StateMachineController? controller =
+        StateMachineController.fromArtboard(artboard, 'State');
     artboard.addController(controller!);
-    _bump = controller.findInput<bool>('Pressed') as SMITrigger;
+    _hover = controller.findInput<bool>('Hover') as SMIBool;
+    _pressed = controller.findInput<bool>('Pressed') as SMITrigger;
+    _loading = controller.findInput<double>('Loading') as SMINumber;
   }
 
   _requestPermission(BuildContext context) async {
@@ -65,10 +71,11 @@ class _DownloadImageButtonState extends State<DownloadImageButton> {
 
   _save(ImageResult imageResult) async {
     String filename = basename(imageResult.link);
-    Response response = await Dio().get(
-      imageResult.original,
-      options: Options(responseType: ResponseType.bytes),
-    );
+    Response response = await Dio().get(imageResult.original,
+        options: Options(responseType: ResponseType.bytes),
+        onReceiveProgress: (int count, int total) {
+      _loading?.change((count / total) * 100);
+    });
 
     final result = await ImageGallerySaver.saveImage(
       Uint8List.fromList(response.data),
