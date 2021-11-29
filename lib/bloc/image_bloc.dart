@@ -75,12 +75,9 @@ class ImageBloc extends Bloc<ImageEvent, ImageState> {
     on<ImageEvent>((event, emit) async {
       if (event is SearchForImages) {
         emit(Searching(query: event.query));
-        if (event.query != query) {
-          page = 0;
-          allImages.clear();
-        }
+        allImages.clear();
 
-        page = event.page!;
+        page = event.page ?? 0;
         query = event.query;
         // await Future.delayed(const Duration(seconds: 3));
         List<ImageResult?> images = await _searchForImages(query, page);
