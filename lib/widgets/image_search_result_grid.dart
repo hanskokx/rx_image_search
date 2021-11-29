@@ -8,11 +8,7 @@ import 'package:rx_image_search/widgets/image_search_result_thumbnail.dart';
 import 'package:rx_image_search/widgets/loading_animation.dart';
 
 class ImageSearchResultGrid extends StatefulWidget {
-  final Function(bool) onImageTap;
-  const ImageSearchResultGrid({
-    Key? key,
-    required this.onImageTap,
-  }) : super(key: key);
+  const ImageSearchResultGrid({Key? key}) : super(key: key);
 
   @override
   State<ImageSearchResultGrid> createState() => _ImageSearchResultGridState();
@@ -79,7 +75,6 @@ class _ImageSearchResultGridState extends State<ImageSearchResultGrid>
     BuildContext context,
     ImageResult imageResult,
   ) async {
-    widget.onImageTap(true);
     return showDialog<void>(
       context: context,
       barrierDismissible: true,
