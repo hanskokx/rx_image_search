@@ -43,44 +43,36 @@ class _ImageDetailScreenState extends State<ImageDetailScreen> {
                   ],
                 ),
               ),
-              Container(
-                decoration: const BoxDecoration(
-                  image: DecorationImage(
-                    repeat: ImageRepeat.repeat,
-                    image: AssetImage('assets/images/checkerboard.png'),
+              Hero(
+                tag: args.imageResult.position,
+                child: CachedNetworkImage(
+                  imageUrl: args.imageResult.original,
+                  errorWidget: (context, url, error) => Icon(
+                    Icons.cloud_off_outlined,
+                    color: Theme.of(context).errorColor,
+                    size: 64.0,
                   ),
-                ),
-                child: Hero(
-                  tag: args.imageResult.title,
-                  child: CachedNetworkImage(
-                    imageUrl: args.imageResult.original,
-                    errorWidget: (context, url, error) => Icon(
-                      Icons.cloud_off_outlined,
-                      color: Theme.of(context).errorColor,
-                      size: 64.0,
-                    ),
-                    progressIndicatorBuilder: (
-                      BuildContext context,
-                      String url,
-                      DownloadProgress progress,
-                    ) {
-                      return Center(
-                        child: SizedBox(
-                          height: 100,
-                          width: 100,
-                          child: RiveAnimation.asset(
-                            'assets/animations/circular_progress.riv',
-                            animations: const [
-                              'infinite',
-                              'BackAndForth',
-                              '0to100'
-                            ],
-                            controllers: [_controller],
-                          ),
+                  progressIndicatorBuilder: (
+                    BuildContext context,
+                    String url,
+                    DownloadProgress progress,
+                  ) {
+                    return Center(
+                      child: SizedBox(
+                        height: 100,
+                        width: 100,
+                        child: RiveAnimation.asset(
+                          'assets/animations/circular_progress.riv',
+                          animations: const [
+                            'infinite',
+                            'BackAndForth',
+                            '0to100'
+                          ],
+                          controllers: [_controller],
                         ),
-                      );
-                    },
-                  ),
+                      ),
+                    );
+                  },
                 ),
               ),
               DownloadImageButton(imageResult: args.imageResult),

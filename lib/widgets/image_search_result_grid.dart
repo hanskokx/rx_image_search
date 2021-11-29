@@ -86,7 +86,7 @@ class _ImageSearchResultGridState extends State<ImageSearchResultGrid>
     int scrollPosition = _controller.offset.floor();
     int height = ((itemCount * 100) / 3 - 100).floor();
 
-    if (scrollPosition >= height - 100) {
+    if ((scrollPosition / height) > 0.7) {
       BlocProvider.of<ImageBloc>(context).add(GetNextPage());
     }
   }

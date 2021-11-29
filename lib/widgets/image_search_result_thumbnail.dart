@@ -24,7 +24,7 @@ class ImageSearchResultThumbnail extends StatelessWidget {
           borderRadius: BorderRadius.circular(8),
         ),
         child: Hero(
-          tag: imageResult.title,
+          tag: imageResult.position,
           child: CachedNetworkImage(
             fit: BoxFit.cover,
             imageUrl: thumbnailUrl,
