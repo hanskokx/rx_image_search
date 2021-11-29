@@ -43,9 +43,17 @@ class _DownloadImageButtonState extends State<DownloadImageButton> {
 
   _downloadImage(BuildContext context, ImageResult imageResult) async {
     _hover?.change(true);
-    await _requestPermission(context);
-    _pressed?.fire();
-    await _save(imageResult);
+    PermissionStatus? permission = await _requestPermission(context);
+
+    if (permission == PermissionStatus.granted) {
+      _pressed?.fire();
+      await _save(imageResult);
+    } else {
+      ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
+        content: Text('Permission denied'),
+      ));
+    }
+
     _hover?.change(false);
   }
 
@@ -58,15 +66,13 @@ class _DownloadImageButtonState extends State<DownloadImageButton> {
     _loading = controller.findInput<double>('Loading') as SMINumber;
   }
 
-  _requestPermission(BuildContext context) async {
+  Future<PermissionStatus?> _requestPermission(BuildContext context) async {
     Map<Permission, PermissionStatus> statuses = await [
       Permission.storage,
     ].request();
 
-    final info = statuses[Permission.storage].toString();
-    ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-      content: Text(info),
-    ));
+    final PermissionStatus? info = statuses[Permission.storage];
+    return info;
   }
 
   _save(ImageResult imageResult) async {
