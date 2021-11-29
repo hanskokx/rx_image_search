@@ -3,7 +3,8 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:rx_image_search/bloc/image_bloc.dart';
 import 'package:rx_image_search/classes/image_result.dart';
-import 'package:rx_image_search/widgets/image_detail_view.dart';
+import 'package:rx_image_search/screens/image_detail_screen.dart';
+import 'package:rx_image_search/utils/navigator_argument_extractor.dart';
 import 'package:rx_image_search/widgets/image_search_result_thumbnail.dart';
 import 'package:rx_image_search/widgets/loading_animation.dart';
 
@@ -75,12 +76,9 @@ class _ImageSearchResultGridState extends State<ImageSearchResultGrid>
     BuildContext context,
     ImageResult imageResult,
   ) async {
-    return showDialog<void>(
-      context: context,
-      barrierDismissible: true,
-      builder: (BuildContext context) {
-        return ImageDetailView(imageResult: imageResult);
-      },
+    Navigator.of(context).pushNamed(
+      ImageDetailScreen.id,
+      arguments: ScreenArguments(imageResult),
     );
   }
 
