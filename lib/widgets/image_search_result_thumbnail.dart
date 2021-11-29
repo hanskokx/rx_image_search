@@ -23,36 +23,39 @@ class ImageSearchResultThumbnail extends StatelessWidget {
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(8),
         ),
-        child: CachedNetworkImage(
-          fit: BoxFit.cover,
-          imageUrl: thumbnailUrl,
-          progressIndicatorBuilder: (
-            BuildContext context,
-            String url,
-            DownloadProgress progress,
-          ) {
-            return Shimmer.fromColors(
-              child: Container(
-                height: 100,
-                width: 100,
-                color: Colors.white,
-              ),
-              baseColor: Colors.black12,
-              highlightColor: Colors.white,
-            );
-          },
-          errorWidget: (context, url, error) => Column(
-            children: [
-              Icon(
-                Icons.cloud_off_outlined,
-                color: Theme.of(context).errorColor.withOpacity(0.5),
-                size: 64.0,
-              ),
-              Text(
-                'Check connection',
-                style: Theme.of(context).textTheme.subtitle1,
-              ),
-            ],
+        child: Hero(
+          tag: imageResult.title,
+          child: CachedNetworkImage(
+            fit: BoxFit.cover,
+            imageUrl: thumbnailUrl,
+            progressIndicatorBuilder: (
+              BuildContext context,
+              String url,
+              DownloadProgress progress,
+            ) {
+              return Shimmer.fromColors(
+                child: Container(
+                  height: 100,
+                  width: 100,
+                  color: Colors.white,
+                ),
+                baseColor: Colors.black12,
+                highlightColor: Colors.white,
+              );
+            },
+            errorWidget: (context, url, error) => Column(
+              children: [
+                Icon(
+                  Icons.cloud_off_outlined,
+                  color: Theme.of(context).errorColor.withOpacity(0.5),
+                  size: 64.0,
+                ),
+                Text(
+                  'Check connection',
+                  style: Theme.of(context).textTheme.subtitle1,
+                ),
+              ],
+            ),
           ),
         ),
       ),

@@ -20,6 +20,7 @@ class _ImageDetailScreenState extends State<ImageDetailScreen> {
   Widget build(BuildContext context) {
     final args = ModalRoute.of(context)!.settings.arguments as ScreenArguments;
     return Scaffold(
+      backgroundColor: Theme.of(context).colorScheme.background,
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.all(8.0),
@@ -49,34 +50,37 @@ class _ImageDetailScreenState extends State<ImageDetailScreen> {
                     image: AssetImage('assets/images/checkerboard.png'),
                   ),
                 ),
-                child: CachedNetworkImage(
-                  imageUrl: args.imageResult.original,
-                  errorWidget: (context, url, error) => Icon(
-                    Icons.cloud_off_outlined,
-                    color: Theme.of(context).errorColor,
-                    size: 64.0,
-                  ),
-                  progressIndicatorBuilder: (
-                    BuildContext context,
-                    String url,
-                    DownloadProgress progress,
-                  ) {
-                    return Center(
-                      child: SizedBox(
-                        height: 100,
-                        width: 100,
-                        child: RiveAnimation.asset(
-                          'assets/animations/circular_progress.riv',
-                          animations: const [
-                            'infinite',
-                            'BackAndForth',
-                            '0to100'
-                          ],
-                          controllers: [_controller],
+                child: Hero(
+                  tag: args.imageResult.title,
+                  child: CachedNetworkImage(
+                    imageUrl: args.imageResult.original,
+                    errorWidget: (context, url, error) => Icon(
+                      Icons.cloud_off_outlined,
+                      color: Theme.of(context).errorColor,
+                      size: 64.0,
+                    ),
+                    progressIndicatorBuilder: (
+                      BuildContext context,
+                      String url,
+                      DownloadProgress progress,
+                    ) {
+                      return Center(
+                        child: SizedBox(
+                          height: 100,
+                          width: 100,
+                          child: RiveAnimation.asset(
+                            'assets/animations/circular_progress.riv',
+                            animations: const [
+                              'infinite',
+                              'BackAndForth',
+                              '0to100'
+                            ],
+                            controllers: [_controller],
+                          ),
                         ),
-                      ),
-                    );
-                  },
+                      );
+                    },
+                  ),
                 ),
               ),
               DownloadImageButton(imageResult: args.imageResult),
