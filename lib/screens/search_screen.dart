@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:rx_image_search/widgets/image_search_result_grid.dart';
 import 'package:rx_image_search/widgets/search_input.dart';
 
@@ -16,25 +17,33 @@ class _SearchScreenState extends State<SearchScreen> {
     return SafeArea(
       child: Scaffold(
         backgroundColor: Theme.of(context).colorScheme.background,
-        body: InkWell(
-          enableFeedback: false,
-          splashColor: Colors.transparent,
-          highlightColor: Colors.transparent,
-          focusColor: Colors.transparent,
-          onTap: () {
-            FocusScope.of(context).requestFocus(FocusNode());
-          },
-          child: Stack(
-            children: [
-              Column(
-                children: const [
-                  Search(),
-                  ImageSearchResultGrid(),
-                ],
+        body: (dotenv.maybeGet('SERPAPI_API_KEY') == null)
+            ? const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: Center(
+                  child: Text(
+                      'Please ensure SERPAPI_API_KEY is set in your environment.'),
+                ),
+              )
+            : InkWell(
+                enableFeedback: false,
+                splashColor: Colors.transparent,
+                highlightColor: Colors.transparent,
+                focusColor: Colors.transparent,
+                onTap: () {
+                  FocusScope.of(context).requestFocus(FocusNode());
+                },
+                child: Stack(
+                  children: [
+                    Column(
+                      children: const [
+                        Search(),
+                        ImageSearchResultGrid(),
+                      ],
+                    ),
+                  ],
+                ),
               ),
-            ],
-          ),
-        ),
       ),
     );
   }

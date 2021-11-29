@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:rx_image_search/bloc/image_bloc.dart';
 import 'package:rx_image_search/constants/theme.dart';
 import 'package:rx_image_search/screens/image_detail_screen.dart';
 import 'package:rx_image_search/screens/search_screen.dart';
 
-void main() {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  await dotenv.load();
 
   runApp(
     BlocProvider(

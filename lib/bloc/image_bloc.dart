@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:bloc/bloc.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:meta/meta.dart';
 import 'package:rx_image_search/classes/image_result.dart';
 
@@ -12,44 +13,43 @@ part 'image_state.dart';
 Future<List<ImageResult?>> _searchForImages(String query, int? page) async {
   late Response response;
   // * Production code
-  // String apiKey =
-  //     '1c4cb5c1db9de325de122d59121b2e304d6794a81ff1682578bc29a63f1c5d54';
+  String apiKey = dotenv.get('SERPAPI_API_KEY');
 
-  // BaseOptions options = BaseOptions(
-  //   baseUrl: 'https://serpapi.com/',
-  // );
+  BaseOptions options = BaseOptions(
+    baseUrl: 'https://serpapi.com/',
+  );
 
-  // Map<String, dynamic> data = {
-  //   "q": query,
-  //   "tbm": "isch", // Google Image Search API
-  //   "num": 15, // The number of images to return
-  //   "ijn": page ?? 0, // The page number of the search results
-  //   "api_key": apiKey,
-  // };
+  Map<String, dynamic> data = {
+    "q": query,
+    "tbm": "isch", // Google Image Search API
+    "num": 15, // The number of images to return
+    "ijn": page ?? 0, // The page number of the search results
+    "api_key": apiKey,
+  };
 
-  // Dio client = Dio(options);
+  Dio client = Dio(options);
 
-  // try {
-  //   response = await client.request(
-  //     '/search',
-  //     queryParameters: data,
-  //     options: Options(method: 'GET'),
-  //   );
-  // } catch (error) {
-  //   debugPrint(error.toString());
-  //   rethrow;
-  // }
+  try {
+    response = await client.request(
+      '/search',
+      queryParameters: data,
+      options: Options(method: 'GET'),
+    );
+  } catch (error) {
+    debugPrint(error.toString());
+    rethrow;
+  }
   // * End production code
 
   // ! For testing; so I don't exhaust my limited API calls
-  BaseOptions options = BaseOptions(
-    baseUrl: 'https://tempapi.proj.me/api',
-  );
-  Dio client = Dio(options);
+  // BaseOptions options = BaseOptions(
+  //   baseUrl: 'https://tempapi.proj.me/api',
+  // );
+  // Dio client = Dio(options);
 
-  response = await client.request(
-    "/ntUSavnRD",
-  );
+  // response = await client.request(
+  //   "/ntUSavnRD",
+  // );
   // ! End testing code
 
   List<Map<String, dynamic>> res = [];
