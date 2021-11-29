@@ -71,17 +71,21 @@ class _DownloadImageButtonState extends State<DownloadImageButton> {
 
   _save(ImageResult imageResult) async {
     String filename = basename(imageResult.link);
-    Response response = await Dio().get(imageResult.original,
-        options: Options(responseType: ResponseType.bytes),
-        onReceiveProgress: (int count, int total) {
-      _loading?.change((count / total) * 100);
-    });
+    Response response = await Dio().get(
+      imageResult.original,
+      options: Options(responseType: ResponseType.bytes),
+      onReceiveProgress: (int count, int total) {
+        double percent = ((count / total) * 100);
+        _loading?.change(percent);
+      },
+    );
 
     final result = await ImageGallerySaver.saveImage(
       Uint8List.fromList(response.data),
       name: filename,
+      quality: 100,
     );
-    // TODO: Add notification that image was saved
+    // TODO: Add some error handling
     print(result);
   }
 }

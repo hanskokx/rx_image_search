@@ -1,78 +1,58 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:rx_image_search/classes/image_result.dart';
-import 'package:rx_image_search/widgets/download_image_button.dart';
-
-Future<void> _enlargeImage(
-  BuildContext context,
-  ImageResult imageResult,
-) async {
-  return showDialog<void>(
-    context: context,
-    barrierDismissible: true,
-    builder: (BuildContext context) {
-      return AlertDialog(
-        title: Text(imageResult.title),
-        content: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          mainAxisSize: MainAxisSize.min,
-          children: <Widget>[
-            CachedNetworkImage(
-              imageUrl: imageResult.original,
-              errorWidget: (context, url, error) => Icon(
-                Icons.cloud_off_outlined,
-                color: Theme.of(context).errorColor,
-                size: 64.0,
-              ),
-              progressIndicatorBuilder: (
-                BuildContext context,
-                String url,
-                DownloadProgress progress,
-              ) {
-                return SizedBox(
-                  height: 20,
-                  width: 20,
-                  child: CircularProgressIndicator(value: progress.progress),
-                );
-              },
-            ),
-          ],
-        ),
-        actions: <Widget>[
-          DownloadImageButton(imageResult: imageResult),
-        ],
-      );
-    },
-  );
-}
+import 'package:shimmer/shimmer.dart';
 
 class ImageSearchResultThumbnail extends StatelessWidget {
   final ImageResult imageResult;
-  const ImageSearchResultThumbnail({Key? key, required this.imageResult})
-      : super(key: key);
+  final Function(BuildContext context, ImageResult imageResult) onTap;
+  const ImageSearchResultThumbnail({
+    Key? key,
+    required this.imageResult,
+    required this.onTap,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     String thumbnailUrl = imageResult.thumbnail;
+
     return GestureDetector(
-      onTap: () => _enlargeImage(context, imageResult),
-      child: Card(
-        elevation: 2,
-        child: Padding(
-          padding: const EdgeInsets.all(8.0),
-          child: CachedNetworkImage(
-            imageUrl: thumbnailUrl,
-            progressIndicatorBuilder: (
-              BuildContext context,
-              String url,
-              DownloadProgress progress,
-            ) {
-              return SizedBox(
-                height: 20,
-                width: 20,
-                child: CircularProgressIndicator(value: progress.progress),
-              );
-            },
+      onTap: () => onTap(context, imageResult),
+      child: Container(
+        clipBehavior: Clip.antiAlias,
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(8),
+        ),
+        child: CachedNetworkImage(
+          fit: BoxFit.cover,
+          imageUrl: thumbnailUrl,
+          progressIndicatorBuilder: (
+            BuildContext context,
+            String url,
+            DownloadProgress progress,
+          ) {
+            return Shimmer.fromColors(
+              child: Container(
+                height: 100,
+                width: 100,
+                color: Colors.white,
+              ),
+              baseColor: Colors.black12,
+              highlightColor: Colors.white,
+            );
+          },
+          errorWidget: (context, url, error) => Column(
+            children: [
+              Icon(
+                Icons.cloud_off_outlined,
+                color: Theme.of(context).errorColor.withOpacity(0.5),
+                size: 64.0,
+              ),
+              Text(
+                'Check connection',
+                style: Theme.of(context).textTheme.subtitle1,
+              ),
+            ],
           ),
         ),
       ),

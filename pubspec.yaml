@@ -21,6 +21,7 @@ dependencies:
   image_gallery_saver: ^1.7.1
   permission_handler: ^8.3.0
   rive: ^0.7.33
+  shimmer: ^2.0.0
 dev_dependencies:
   flutter_lints: ^1.0.0
   flutter_test:

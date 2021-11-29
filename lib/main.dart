@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:rx_image_search/bloc/image_bloc.dart';
@@ -38,6 +40,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  bool _showBackdrop = false;
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -47,17 +50,41 @@ class _MyHomePageState extends State<MyHomePage> {
           enableFeedback: false,
           splashColor: Colors.transparent,
           highlightColor: Colors.transparent,
+          focusColor: Colors.transparent,
           onTap: () {
             FocusScope.of(context).requestFocus(FocusNode());
           },
-          child: Column(
-            children: const [
-              Search(),
-              ImageSearchResultGrid(),
+          child: Stack(
+            children: [
+              Column(
+                children: [
+                  const Search(),
+                  ImageSearchResultGrid(
+                    onImageTap: _onImageTap,
+                  ),
+                ],
+              ),
+              IgnorePointer(
+                child: Visibility(
+                  visible: _showBackdrop,
+                  child: BackdropFilter(
+                    filter: ImageFilter.blur(sigmaX: 3.0, sigmaY: 3.0),
+                    child: Container(
+                      color: Colors.black26,
+                    ),
+                  ),
+                ),
+              ),
             ],
           ),
         ),
       ),
     );
+  }
+
+  void _onImageTap(bool callbackValue) {
+    setState(() {
+      _showBackdrop = callbackValue;
+    });
   }
 }

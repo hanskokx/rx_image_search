@@ -82,7 +82,7 @@ class ImageBloc extends Bloc<ImageEvent, ImageState> {
 
         page = event.page!;
         query = event.query;
-        await Future.delayed(const Duration(seconds: 3));
+        // await Future.delayed(const Duration(seconds: 3));
         List<ImageResult?> images = await _searchForImages(query, page);
         allImages.addAll(images);
         emit(HasImages(query: query, data: allImages));
