@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 InputDecorationTheme inputDecoration = const InputDecorationTheme(
   filled: true,
@@ -30,7 +29,7 @@ SnackBarThemeData snackbarTheme = const SnackBarThemeData(
 );
 
 ThemeData theme = ThemeData(
-  fontFamily: GoogleFonts.lexendDeca().fontFamily,
+  fontFamily: 'LexendDeca',
   inputDecorationTheme: inputDecoration,
   snackBarTheme: snackbarTheme,
   colorScheme: const ColorScheme(
