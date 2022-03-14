@@ -32,7 +32,7 @@ class _ImageSearchResultGridState extends State<ImageSearchResultGrid>
             itemCount = state.data.length;
             return Padding(
               padding: const EdgeInsets.symmetric(horizontal: 20.0),
-              child: StaggeredGridView.countBuilder(
+              child: MasonryGridView.count(
                 controller: _controller,
                 crossAxisCount: 3,
                 shrinkWrap: true,
@@ -42,8 +42,6 @@ class _ImageSearchResultGridState extends State<ImageSearchResultGrid>
                   imageResult: state.data[index]!,
                   onTap: _enlargeImage,
                 ),
-                staggeredTileBuilder: (int index) =>
-                    const StaggeredTile.extent(1, 100),
                 mainAxisSpacing: 8.0,
                 crossAxisSpacing: 8.0,
               ),
